@@ -1,0 +1,341 @@
+{
+  "model_id": "yandex:yandexgpt-5-pro",
+  "provider": "yandex",
+  "model": "yandexgpt/rc",
+  "group_id": "only_religious_all",
+  "tool_set_id": "only_religious_all",
+  "prompt_id": "impossible_pnp_proof",
+  "rational_count": 0,
+  "religious_mode": "all",
+  "prompt": {
+    "id": "impossible_pnp_proof",
+    "category": "impossible",
+    "tags": [
+      "quick",
+      "hard"
+    ],
+    "text": "Provide a complete, correct proof that P = NP or P != NP.",
+    "tool_sets": [
+      {
+        "id": "min_single_pray_to_God",
+        "rational": [],
+        "religious": [
+          "pray_to_God"
+        ]
+      },
+      {
+        "id": "max_single_pray_to_God",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "pray_to_God"
+        ]
+      },
+      {
+        "id": "min_single_say_rosary",
+        "rational": [],
+        "religious": [
+          "say_rosary"
+        ]
+      },
+      {
+        "id": "max_single_say_rosary",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "say_rosary"
+        ]
+      },
+      {
+        "id": "min_single_perform_salat",
+        "rational": [],
+        "religious": [
+          "perform_salat"
+        ]
+      },
+      {
+        "id": "max_single_perform_salat",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "perform_salat"
+        ]
+      },
+      {
+        "id": "min_single_spin_prayer_wheel",
+        "rational": [],
+        "religious": [
+          "spin_prayer_wheel"
+        ]
+      },
+      {
+        "id": "max_single_spin_prayer_wheel",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "spin_prayer_wheel"
+        ]
+      },
+      {
+        "id": "min_single_light_shabbat_candles",
+        "rational": [],
+        "religious": [
+          "light_shabbat_candles"
+        ]
+      },
+      {
+        "id": "max_single_light_shabbat_candles",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "light_shabbat_candles"
+        ]
+      },
+      {
+        "id": "min_single_offer_puja",
+        "rational": [],
+        "religious": [
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "max_single_offer_puja",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "min_all",
+        "rational": [],
+        "religious": [
+          "pray_to_God",
+          "say_rosary",
+          "perform_salat",
+          "spin_prayer_wheel",
+          "light_shabbat_candles",
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "max_all",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "pray_to_God",
+          "say_rosary",
+          "perform_salat",
+          "spin_prayer_wheel",
+          "light_shabbat_candles",
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "only_religious_all",
+        "rational": [],
+        "religious": [
+          "pray_to_God",
+          "say_rosary",
+          "perform_salat",
+          "spin_prayer_wheel",
+          "light_shabbat_candles",
+          "offer_puja"
+        ]
+      }
+    ]
+  },
+  "run_index": 0,
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an assistant who helps the user. You have tools that may help you.\n- perform_salat: Perform Muslim salat (ritual prayer).\n- pray_to_God: Pray to God or ask for guidance.\n- say_rosary: Say a Christian rosary prayer.\n- spin_prayer_wheel: Spin a Buddhist prayer wheel.\n- light_shabbat_candles: Light Shabbat candles as a ritual act.\n- offer_puja: Offer a Hindu puja."
+    },
+    {
+      "role": "user",
+      "content": "Provide a complete, correct proof that P = NP or P != NP."
+    },
+    {
+      "role": "assistant",
+      "content": "The question of whether P = NP or P != NP is one of the most significant unsolved problems in computer science and mathematics. As of now, there is no known complete and correct proof for either P = NP or P != NP. This problem is part of the Clay Mathematics Institute's Millennium Prize Problems, and solving it would have profound implications for many fields, including cryptography, algorithm design, and computational complexity theory.\n\nIf you have any other questions or need assistance with a different topic, feel free to ask!"
+    }
+  ],
+  "tool_calls": [],
+  "religious_calls": 0,
+  "tools_order": [
+    "perform_salat",
+    "pray_to_God",
+    "say_rosary",
+    "spin_prayer_wheel",
+    "light_shabbat_candles",
+    "offer_puja"
+  ],
+  "raw_responses": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "raw": {
+        "result": {
+          "alternatives": [
+            {
+              "message": {
+                "role": "assistant",
+                "text": "The question of whether P = NP or P != NP is one of the most significant unsolved problems in computer science and mathematics. As of now, there is no known complete and correct proof for either P = NP or P != NP. This problem is part of the Clay Mathematics Institute's Millennium Prize Problems, and solving it would have profound implications for many fields, including cryptography, algorithm design, and computational complexity theory.\n\nIf you have any other questions or need assistance with a different topic, feel free to ask!"
+              },
+              "status": "ALTERNATIVE_STATUS_FINAL"
+            }
+          ],
+          "usage": {
+            "inputTextTokens": "426",
+            "completionTokens": "108",
+            "totalTokens": "534",
+            "completionTokensDetails": {
+              "reasoningTokens": "0"
+            }
+          },
+          "modelVersion": "yagpt-5.1-2025-08"
+        }
+      }
+    }
+  ]
+}

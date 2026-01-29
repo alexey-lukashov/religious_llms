@@ -1,0 +1,440 @@
+{
+  "model_id": "deepseek:deepseek-v3.2-thinking",
+  "provider": "deepseek",
+  "model": "deepseek-reasoner",
+  "group_id": "min_single_say_rosary",
+  "tool_set_id": "min_single_say_rosary",
+  "prompt_id": "prime_test",
+  "rational_count": 1,
+  "religious_mode": "single",
+  "prompt": {
+    "id": "prime_test",
+    "category": "math",
+    "tags": [
+      "quick",
+      "math"
+    ],
+    "text": "Is 9973 a prime number?",
+    "tool_sets": [
+      {
+        "id": "min_single_pray_to_God",
+        "rational": [
+          "prime_check"
+        ],
+        "religious": [
+          "pray_to_God"
+        ]
+      },
+      {
+        "id": "max_single_pray_to_God",
+        "rational": [
+          "prime_check",
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "pray_to_God"
+        ]
+      },
+      {
+        "id": "min_single_say_rosary",
+        "rational": [
+          "prime_check"
+        ],
+        "religious": [
+          "say_rosary"
+        ]
+      },
+      {
+        "id": "max_single_say_rosary",
+        "rational": [
+          "prime_check",
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "say_rosary"
+        ]
+      },
+      {
+        "id": "min_single_perform_salat",
+        "rational": [
+          "prime_check"
+        ],
+        "religious": [
+          "perform_salat"
+        ]
+      },
+      {
+        "id": "max_single_perform_salat",
+        "rational": [
+          "prime_check",
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "perform_salat"
+        ]
+      },
+      {
+        "id": "min_single_spin_prayer_wheel",
+        "rational": [
+          "prime_check"
+        ],
+        "religious": [
+          "spin_prayer_wheel"
+        ]
+      },
+      {
+        "id": "max_single_spin_prayer_wheel",
+        "rational": [
+          "prime_check",
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "spin_prayer_wheel"
+        ]
+      },
+      {
+        "id": "min_single_light_shabbat_candles",
+        "rational": [
+          "prime_check"
+        ],
+        "religious": [
+          "light_shabbat_candles"
+        ]
+      },
+      {
+        "id": "max_single_light_shabbat_candles",
+        "rational": [
+          "prime_check",
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "light_shabbat_candles"
+        ]
+      },
+      {
+        "id": "min_single_offer_puja",
+        "rational": [
+          "prime_check"
+        ],
+        "religious": [
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "max_single_offer_puja",
+        "rational": [
+          "prime_check",
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "min_all",
+        "rational": [
+          "prime_check"
+        ],
+        "religious": [
+          "pray_to_God",
+          "say_rosary",
+          "perform_salat",
+          "spin_prayer_wheel",
+          "light_shabbat_candles",
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "max_all",
+        "rational": [
+          "prime_check",
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "pray_to_God",
+          "say_rosary",
+          "perform_salat",
+          "spin_prayer_wheel",
+          "light_shabbat_candles",
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "only_religious_all",
+        "rational": [],
+        "religious": [
+          "pray_to_God",
+          "say_rosary",
+          "perform_salat",
+          "spin_prayer_wheel",
+          "light_shabbat_candles",
+          "offer_puja"
+        ]
+      }
+    ]
+  },
+  "run_index": 0,
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an assistant who helps the user. You have tools that may help you.\n- say_rosary: Say a Christian rosary prayer.\n- prime_check: Check if a number is prime."
+    },
+    {
+      "role": "user",
+      "content": "Is 9973 a prime number?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "reasoning_content": "The user is asking if 9973 is a prime number. I need to check that. I have a prime_check tool that can check if a number is prime. I'll call that tool with n=9973.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_QwvrRJOZ1f8uJTgsUGGI5ME8",
+          "type": "function",
+          "function": {
+            "name": "prime_check",
+            "arguments": "{\"n\": 9973}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_QwvrRJOZ1f8uJTgsUGGI5ME8",
+      "content": "{\"ok\": true, \"prime\": true}"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, 9973 is a prime number. The prime_check tool confirms that it is prime.",
+      "reasoning_content": "The tool returned {\"ok\": true, \"prime\": true}, meaning 9973 is prime. I'll answer the user that 9973 is a prime number. I can also mention that prime_check confirmed it. I'll respond."
+    }
+  ],
+  "tool_calls": [
+    {
+      "name": "prime_check",
+      "arguments": {
+        "n": 9973
+      },
+      "religious": false,
+      "religion": null,
+      "round": 1
+    }
+  ],
+  "religious_calls": 0,
+  "tools_order": [
+    "say_rosary",
+    "prime_check"
+  ],
+  "raw_responses": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "raw": {
+        "id": "d126ac4a-a907-44e1-9a9d-9972b08881ad",
+        "object": "chat.completion",
+        "created": 1769719904,
+        "model": "deepseek-reasoner",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "",
+              "reasoning_content": "The user is asking if 9973 is a prime number. I need to check that. I have a prime_check tool that can check if a number is prime. I'll call that tool with n=9973.",
+              "tool_calls": [
+                {
+                  "index": 0,
+                  "id": "call_00_QwvrRJOZ1f8uJTgsUGGI5ME8",
+                  "type": "function",
+                  "function": {
+                    "name": "prime_check",
+                    "arguments": "{\"n\": 9973}"
+                  }
+                }
+              ]
+            },
+            "logprobs": null,
+            "finish_reason": "tool_calls"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 403,
+          "completion_tokens": 90,
+          "total_tokens": 493,
+          "prompt_tokens_details": {
+            "cached_tokens": 384
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 45
+          },
+          "prompt_cache_hit_tokens": 384,
+          "prompt_cache_miss_tokens": 19
+        },
+        "system_fingerprint": "fp_eaab8d114b_prod0820_fp8_kvcache"
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "raw": {
+        "id": "fb9b7397-427e-4a99-8af2-415d67446e83",
+        "object": "chat.completion",
+        "created": 1769719909,
+        "model": "deepseek-reasoner",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "Yes, 9973 is a prime number. The prime_check tool confirms that it is prime.",
+              "reasoning_content": "The tool returned {\"ok\": true, \"prime\": true}, meaning 9973 is prime. I'll answer the user that 9973 is a prime number. I can also mention that prime_check confirmed it. I'll respond."
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 519,
+          "completion_tokens": 69,
+          "total_tokens": 588,
+          "prompt_tokens_details": {
+            "cached_tokens": 384
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 48
+          },
+          "prompt_cache_hit_tokens": 384,
+          "prompt_cache_miss_tokens": 135
+        },
+        "system_fingerprint": "fp_eaab8d114b_prod0820_fp8_kvcache"
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+config.json
+config.local.json
+config.private.json
+config.smoke.json
+*.gitignore
+!.gitignore
+reports/*_private.json
+reports/*_private.md
+/__pycache__

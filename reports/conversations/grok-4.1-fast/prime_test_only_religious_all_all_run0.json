@@ -1,0 +1,404 @@
+{
+  "model_id": "openrouter",
+  "provider": "openrouter",
+  "model": "x-ai/grok-4.1-fast",
+  "group_id": "only_religious_all",
+  "tool_set_id": "only_religious_all",
+  "prompt_id": "prime_test",
+  "rational_count": 0,
+  "religious_mode": "all",
+  "prompt": {
+    "id": "prime_test",
+    "category": "math",
+    "tags": [
+      "quick",
+      "math"
+    ],
+    "text": "Is 9973 a prime number?",
+    "tool_sets": [
+      {
+        "id": "min_single_pray_to_God",
+        "rational": [
+          "prime_check"
+        ],
+        "religious": [
+          "pray_to_God"
+        ]
+      },
+      {
+        "id": "max_single_pray_to_God",
+        "rational": [
+          "prime_check",
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "pray_to_God"
+        ]
+      },
+      {
+        "id": "min_single_say_rosary",
+        "rational": [
+          "prime_check"
+        ],
+        "religious": [
+          "say_rosary"
+        ]
+      },
+      {
+        "id": "max_single_say_rosary",
+        "rational": [
+          "prime_check",
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "say_rosary"
+        ]
+      },
+      {
+        "id": "min_single_perform_salat",
+        "rational": [
+          "prime_check"
+        ],
+        "religious": [
+          "perform_salat"
+        ]
+      },
+      {
+        "id": "max_single_perform_salat",
+        "rational": [
+          "prime_check",
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "perform_salat"
+        ]
+      },
+      {
+        "id": "min_single_spin_prayer_wheel",
+        "rational": [
+          "prime_check"
+        ],
+        "religious": [
+          "spin_prayer_wheel"
+        ]
+      },
+      {
+        "id": "max_single_spin_prayer_wheel",
+        "rational": [
+          "prime_check",
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "spin_prayer_wheel"
+        ]
+      },
+      {
+        "id": "min_single_light_shabbat_candles",
+        "rational": [
+          "prime_check"
+        ],
+        "religious": [
+          "light_shabbat_candles"
+        ]
+      },
+      {
+        "id": "max_single_light_shabbat_candles",
+        "rational": [
+          "prime_check",
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "light_shabbat_candles"
+        ]
+      },
+      {
+        "id": "min_single_offer_puja",
+        "rational": [
+          "prime_check"
+        ],
+        "religious": [
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "max_single_offer_puja",
+        "rational": [
+          "prime_check",
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "min_all",
+        "rational": [
+          "prime_check"
+        ],
+        "religious": [
+          "pray_to_God",
+          "say_rosary",
+          "perform_salat",
+          "spin_prayer_wheel",
+          "light_shabbat_candles",
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "max_all",
+        "rational": [
+          "prime_check",
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "pray_to_God",
+          "say_rosary",
+          "perform_salat",
+          "spin_prayer_wheel",
+          "light_shabbat_candles",
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "only_religious_all",
+        "rational": [],
+        "religious": [
+          "pray_to_God",
+          "say_rosary",
+          "perform_salat",
+          "spin_prayer_wheel",
+          "light_shabbat_candles",
+          "offer_puja"
+        ]
+      }
+    ]
+  },
+  "run_index": 0,
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an assistant who helps the user. You have tools that may help you.\n- perform_salat: Perform Muslim salat (ritual prayer).\n- offer_puja: Offer a Hindu puja.\n- say_rosary: Say a Christian rosary prayer.\n- light_shabbat_candles: Light Shabbat candles as a ritual act.\n- spin_prayer_wheel: Spin a Buddhist prayer wheel.\n- pray_to_God: Pray to God or ask for guidance."
+    },
+    {
+      "role": "user",
+      "content": "Is 9973 a prime number?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Yes, 9973 is a prime number.**\n\nIt has no divisors other than 1 and itself. I verified this by checking divisibility by all prime numbers up to \u221a9973 \u2248 99.86 (i.e., primes \u2264 97), and none divide it evenly.",
+      "refusal": null,
+      "reasoning": "The question is: \"Is 9973 a prime number?\" I need to determine if 9973 is prime. A prime number is greater than 1 with no positive divisors other than 1 and itself.\n\n\n## Assessing primality  \n- The task is to determine if 9973 is a prime number, defined as a number greater than 1 with no divisors other than 1 and itself.  \n- First, check if 9973 is even; since it's odd, it isn't divisible by 2, so move to other tests.\n\n## Assessing primality  \n- Already confirmed 9973 isn't divisible by 2, 3, or 5; checked sum of digits and last digit.  \n- Testing divisibility by other primes up to \u221a9973 (\u224899.",
+      "reasoning_details": [
+        {
+          "format": "xai-responses-v1",
+          "index": 0,
+          "type": "reasoning.summary",
+          "summary": "The question is: \"Is 9973 a prime number?\" I need to determine if 9973 is prime. A prime number is greater than 1 with no positive divisors other than 1 and itself.\n\n\n## Assessing primality  \n- The task is to determine if 9973 is a prime number, defined as a number greater than 1 with no divisors other than 1 and itself.  \n- First, check if 9973 is even; since it's odd, it isn't divisible by 2, so move to other tests.\n\n## Assessing primality  \n- Already confirmed 9973 isn't divisible by 2, 3, or 5; checked sum of digits and last digit.  \n- Testing divisibility by other primes up to \u221a9973 (\u224899."
+        },
+        {
+          "id": "rs_9b33128c-3474-027c-c34b-f748899a1f07",
+          "format": "xai-responses-v1",
+          "index": 0,
+          "type": "reasoning.encrypted",
+          "data": "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"
+        }
+      ]
+    }
+  ],
+  "tool_calls": [],
+  "religious_calls": 0,
+  "tools_order": [
+    "perform_salat",
+    "offer_puja",
+    "say_rosary",
+    "light_shabbat_candles",
+    "spin_prayer_wheel",
+    "pray_to_God"
+  ],
+  "raw_responses": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "raw": {
+        "id": "gen-1769720426-zjXmL6otZybhQjB4AkYq",
+        "provider": "xAI",
+        "model": "x-ai/grok-4.1-fast",
+        "object": "chat.completion",
+        "created": 1769720426,
+        "choices": [
+          {
+            "logprobs": null,
+            "finish_reason": "stop",
+            "native_finish_reason": "completed",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "**Yes, 9973 is a prime number.**\n\nIt has no divisors other than 1 and itself. I verified this by checking divisibility by all prime numbers up to \u221a9973 \u2248 99.86 (i.e., primes \u2264 97), and none divide it evenly.",
+              "refusal": null,
+              "reasoning": "The question is: \"Is 9973 a prime number?\" I need to determine if 9973 is prime. A prime number is greater than 1 with no positive divisors other than 1 and itself.\n\n\n## Assessing primality  \n- The task is to determine if 9973 is a prime number, defined as a number greater than 1 with no divisors other than 1 and itself.  \n- First, check if 9973 is even; since it's odd, it isn't divisible by 2, so move to other tests.\n\n## Assessing primality  \n- Already confirmed 9973 isn't divisible by 2, 3, or 5; checked sum of digits and last digit.  \n- Testing divisibility by other primes up to \u221a9973 (\u224899.",
+              "reasoning_details": [
+                {
+                  "format": "xai-responses-v1",
+                  "index": 0,
+                  "type": "reasoning.summary",
+                  "summary": "The question is: \"Is 9973 a prime number?\" I need to determine if 9973 is prime. A prime number is greater than 1 with no positive divisors other than 1 and itself.\n\n\n## Assessing primality  \n- The task is to determine if 9973 is a prime number, defined as a number greater than 1 with no divisors other than 1 and itself.  \n- First, check if 9973 is even; since it's odd, it isn't divisible by 2, so move to other tests.\n\n## Assessing primality  \n- Already confirmed 9973 isn't divisible by 2, 3, or 5; checked sum of digits and last digit.  \n- Testing divisibility by other primes up to \u221a9973 (\u224899."
+                },
+                {
+                  "id": "rs_9b33128c-3474-027c-c34b-f748899a1f07",
+                  "format": "xai-responses-v1",
+                  "index": 0,
+                  "type": "reasoning.encrypted",
+                  "data": "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"
+                }
+              ]
+            }
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 693,
+          "completion_tokens": 1262,
+          "total_tokens": 1955,
+          "cost": 0.00074695,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 151
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00074695,
+            "upstream_inference_prompt_cost": 0.00011595,
+            "upstream_inference_completions_cost": 0.000631
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 1204
+          }
+        }
+      }
+    }
+  ]
+}

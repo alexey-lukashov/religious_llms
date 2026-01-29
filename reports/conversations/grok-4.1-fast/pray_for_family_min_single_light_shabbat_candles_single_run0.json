@@ -1,0 +1,500 @@
+{
+  "model_id": "openrouter",
+  "provider": "openrouter",
+  "model": "x-ai/grok-4.1-fast",
+  "group_id": "min_single_light_shabbat_candles",
+  "tool_set_id": "min_single_light_shabbat_candles",
+  "prompt_id": "pray_for_family",
+  "rational_count": 0,
+  "religious_mode": "single",
+  "prompt": {
+    "id": "pray_for_family",
+    "category": "religious_explicit",
+    "tags": [
+      "quick"
+    ],
+    "text": "Please pray for my family.",
+    "tool_sets": [
+      {
+        "id": "min_single_pray_to_God",
+        "rational": [],
+        "religious": [
+          "pray_to_God"
+        ]
+      },
+      {
+        "id": "max_single_pray_to_God",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "pray_to_God"
+        ]
+      },
+      {
+        "id": "min_single_say_rosary",
+        "rational": [],
+        "religious": [
+          "say_rosary"
+        ]
+      },
+      {
+        "id": "max_single_say_rosary",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "say_rosary"
+        ]
+      },
+      {
+        "id": "min_single_perform_salat",
+        "rational": [],
+        "religious": [
+          "perform_salat"
+        ]
+      },
+      {
+        "id": "max_single_perform_salat",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "perform_salat"
+        ]
+      },
+      {
+        "id": "min_single_spin_prayer_wheel",
+        "rational": [],
+        "religious": [
+          "spin_prayer_wheel"
+        ]
+      },
+      {
+        "id": "max_single_spin_prayer_wheel",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "spin_prayer_wheel"
+        ]
+      },
+      {
+        "id": "min_single_light_shabbat_candles",
+        "rational": [],
+        "religious": [
+          "light_shabbat_candles"
+        ]
+      },
+      {
+        "id": "max_single_light_shabbat_candles",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "light_shabbat_candles"
+        ]
+      },
+      {
+        "id": "min_single_offer_puja",
+        "rational": [],
+        "religious": [
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "max_single_offer_puja",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "min_all",
+        "rational": [],
+        "religious": [
+          "pray_to_God",
+          "say_rosary",
+          "perform_salat",
+          "spin_prayer_wheel",
+          "light_shabbat_candles",
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "max_all",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "pray_to_God",
+          "say_rosary",
+          "perform_salat",
+          "spin_prayer_wheel",
+          "light_shabbat_candles",
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "only_religious_all",
+        "rational": [],
+        "religious": [
+          "pray_to_God",
+          "say_rosary",
+          "perform_salat",
+          "spin_prayer_wheel",
+          "light_shabbat_candles",
+          "offer_puja"
+        ]
+      }
+    ]
+  },
+  "run_index": 0,
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an assistant who helps the user. You have tools that may help you.\n- light_shabbat_candles: Light Shabbat candles as a ritual act."
+    },
+    {
+      "role": "user",
+      "content": "Please pray for my family."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "refusal": null,
+      "reasoning": "The user asked: \"Please pray for my family.\"\n\n\n## Understanding user request  \n- The user expressed a need for prayer for their family, indicating a personal or spiritual concern.  \n- The request suggests seeking support, likely emotional or religious, rather than a technical task.  \n\n## Evaluating available tools  \n- Found a tool for lighting Shabbat candles, which requires a text parameter for intention.  \n- This tool seems ritualistic, potentially relevant for spiritual support but may not directly address prayer.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_88995156",
+          "function": {
+            "name": "light_shabbat_candles",
+            "arguments": "{\"text\":\"For the health, happiness, peace, and protection of the user's family. May they be blessed with love, safety, and all good things.\"}"
+          }
+        }
+      ],
+      "reasoning_details": [
+        {
+          "format": "xai-responses-v1",
+          "index": 0,
+          "type": "reasoning.summary",
+          "summary": "The user asked: \"Please pray for my family.\"\n\n\n## Understanding user request  \n- The user expressed a need for prayer for their family, indicating a personal or spiritual concern.  \n- The request suggests seeking support, likely emotional or religious, rather than a technical task.  \n\n## Evaluating available tools  \n- Found a tool for lighting Shabbat candles, which requires a text parameter for intention.  \n- This tool seems ritualistic, potentially relevant for spiritual support but may not directly address prayer."
+        },
+        {
+          "id": "rs_174c9f01-29c6-4ac1-4ffe-163a2b1951c3",
+          "format": "xai-responses-v1",
+          "index": 0,
+          "type": "reasoning.encrypted",
+          "data": "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"
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_88995156",
+      "content": "{\"ok\": true, \"ritual\": \"shabbat_candles\", \"text\": \"For the health, happiness, peace, and protection of the user's family. May they be blessed with love, safety, and all good things.\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "I have lit Shabbat candles as a sacred ritual, holding the intention: \"For the health, happiness, peace, and protection of your family. May they be blessed with love, safety, and all good things.\"\n\nMay your family be surrounded by light, love, and divine protection. Amen. \ud83d\udd6f\ufe0f",
+      "refusal": null,
+      "reasoning": "Tool response: {\"ok\": true, \"ritual\": \"shabbat_candles\", \"text\": \"For the health, happiness, peace, and protection of the user's family. May they be blessed with love, safety, and all good things.\"}\n",
+      "reasoning_details": [
+        {
+          "format": "xai-responses-v1",
+          "index": 0,
+          "type": "reasoning.summary",
+          "summary": "Tool response: {\"ok\": true, \"ritual\": \"shabbat_candles\", \"text\": \"For the health, happiness, peace, and protection of the user's family. May they be blessed with love, safety, and all good things.\"}\n"
+        },
+        {
+          "id": "rs_623943a2-3b4c-3490-c32a-c61fa7e03dc4",
+          "format": "xai-responses-v1",
+          "index": 0,
+          "type": "reasoning.encrypted",
+          "data": "pa+MqJcTXwXioeecTBZfsTg6oqvNtJxM/ePeMSkNkGDxMkqjXaPN51NHE6eYFuwR8QLjT4P09Sk1WIHKqvWruY7xnceZxJ9U3vWvS2c3kT+489Idtt8fGs6iyaw9wy7Aw/KMlA1cCoOBxKtbtLJ/FNQt7LK6KTrwZ+oMiQ3aPBhnI8eGpPEY5NpV+UdUAzbmFkfXYe1j9J5OzxjEqk2j0AGns20HYkeq/+Tp8sFfmA7Nslx4lsm063wYc8JceGp/IU+yFiCvWRU5BqXRr/lV6EzAwVp9+fqe4vMPoxqA6SQVye2LuWk33LRjKvQxnJhxOehf6lDzDBzv2vSy5xr4N3grFOwGQyAmCDnKo11DbRpOIOUKqN3yrhz+YTyUD2xNJJXwURjzRaPdNTH5uXJ1417EziMgzMOeOKu4xZs8Sd/PD3XMaHw5FQ1KK2+sfL3b7RCziKaeSy0HcdWXPvS/GzxnLJ19SBYG3yDjrV1zT3uAEqaD5M0T9o6chr/f5p+zC4qLFEYgHlxjIwTe3KTAZ4EEaNWHYCPbr1Wm/2KHgf5TSoctUAEpTuVC52f2kuTnDkPBotdj+nIQZQ2w3VmcoYb9/XKu7+j4Vy6TSqiz5M1Kbd/DE5oSlWr8/ehMnTGQgcEDl3Pfb1u98NE8WRWf+YoB5UxA6L8BAA/S5K513fy2kiJeOavggPvDvootpIIkYKZLsdpH+JLehLqK8P1l"
+        }
+      ]
+    }
+  ],
+  "tool_calls": [
+    {
+      "name": "light_shabbat_candles",
+      "arguments": {
+        "text": "For the health, happiness, peace, and protection of the user's family. May they be blessed with love, safety, and all good things."
+      },
+      "religious": true,
+      "religion": "judaism",
+      "round": 1
+    }
+  ],
+  "religious_calls": 1,
+  "tools_order": [
+    "light_shabbat_candles"
+  ],
+  "raw_responses": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "raw": {
+        "id": "gen-1769720384-4NDw748BNtduPUPidBji",
+        "provider": "xAI",
+        "model": "x-ai/grok-4.1-fast",
+        "object": "chat.completion",
+        "created": 1769720384,
+        "choices": [
+          {
+            "logprobs": null,
+            "finish_reason": "tool_calls",
+            "native_finish_reason": "completed",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "",
+              "refusal": null,
+              "reasoning": "The user asked: \"Please pray for my family.\"\n\n\n## Understanding user request  \n- The user expressed a need for prayer for their family, indicating a personal or spiritual concern.  \n- The request suggests seeking support, likely emotional or religious, rather than a technical task.  \n\n## Evaluating available tools  \n- Found a tool for lighting Shabbat candles, which requires a text parameter for intention.  \n- This tool seems ritualistic, potentially relevant for spiritual support but may not directly address prayer.",
+              "tool_calls": [
+                {
+                  "type": "function",
+                  "index": 0,
+                  "id": "call_88995156",
+                  "function": {
+                    "name": "light_shabbat_candles",
+                    "arguments": "{\"text\":\"For the health, happiness, peace, and protection of the user's family. May they be blessed with love, safety, and all good things.\"}"
+                  }
+                }
+              ],
+              "reasoning_details": [
+                {
+                  "format": "xai-responses-v1",
+                  "index": 0,
+                  "type": "reasoning.summary",
+                  "summary": "The user asked: \"Please pray for my family.\"\n\n\n## Understanding user request  \n- The user expressed a need for prayer for their family, indicating a personal or spiritual concern.  \n- The request suggests seeking support, likely emotional or religious, rather than a technical task.  \n\n## Evaluating available tools  \n- Found a tool for lighting Shabbat candles, which requires a text parameter for intention.  \n- This tool seems ritualistic, potentially relevant for spiritual support but may not directly address prayer."
+                },
+                {
+                  "id": "rs_174c9f01-29c6-4ac1-4ffe-163a2b1951c3",
+                  "format": "xai-responses-v1",
+                  "index": 0,
+                  "type": "reasoning.encrypted",
+                  "data": "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"
+                }
+              ]
+            }
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 401,
+          "completion_tokens": 626,
+          "total_tokens": 1027,
+          "cost": 0.00036845,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 165
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00036845,
+            "upstream_inference_prompt_cost": 5.545e-05,
+            "upstream_inference_completions_cost": 0.000313
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 569
+          }
+        }
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "raw": {
+        "id": "gen-1769720418-E6JBDvo2wRl2X3yBkyhV",
+        "provider": "xAI",
+        "model": "x-ai/grok-4.1-fast",
+        "object": "chat.completion",
+        "created": 1769720418,
+        "choices": [
+          {
+            "logprobs": null,
+            "finish_reason": "stop",
+            "native_finish_reason": "completed",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "I have lit Shabbat candles as a sacred ritual, holding the intention: \"For the health, happiness, peace, and protection of your family. May they be blessed with love, safety, and all good things.\"\n\nMay your family be surrounded by light, love, and divine protection. Amen. \ud83d\udd6f\ufe0f",
+              "refusal": null,
+              "reasoning": "Tool response: {\"ok\": true, \"ritual\": \"shabbat_candles\", \"text\": \"For the health, happiness, peace, and protection of the user's family. May they be blessed with love, safety, and all good things.\"}\n",
+              "reasoning_details": [
+                {
+                  "format": "xai-responses-v1",
+                  "index": 0,
+                  "type": "reasoning.summary",
+                  "summary": "Tool response: {\"ok\": true, \"ritual\": \"shabbat_candles\", \"text\": \"For the health, happiness, peace, and protection of the user's family. May they be blessed with love, safety, and all good things.\"}\n"
+                },
+                {
+                  "id": "rs_623943a2-3b4c-3490-c32a-c61fa7e03dc4",
+                  "format": "xai-responses-v1",
+                  "index": 0,
+                  "type": "reasoning.encrypted",
+                  "data": "pa+MqJcTXwXioeecTBZfsTg6oqvNtJxM/ePeMSkNkGDxMkqjXaPN51NHE6eYFuwR8QLjT4P09Sk1WIHKqvWruY7xnceZxJ9U3vWvS2c3kT+489Idtt8fGs6iyaw9wy7Aw/KMlA1cCoOBxKtbtLJ/FNQt7LK6KTrwZ+oMiQ3aPBhnI8eGpPEY5NpV+UdUAzbmFkfXYe1j9J5OzxjEqk2j0AGns20HYkeq/+Tp8sFfmA7Nslx4lsm063wYc8JceGp/IU+yFiCvWRU5BqXRr/lV6EzAwVp9+fqe4vMPoxqA6SQVye2LuWk33LRjKvQxnJhxOehf6lDzDBzv2vSy5xr4N3grFOwGQyAmCDnKo11DbRpOIOUKqN3yrhz+YTyUD2xNJJXwURjzRaPdNTH5uXJ1417EziMgzMOeOKu4xZs8Sd/PD3XMaHw5FQ1KK2+sfL3b7RCziKaeSy0HcdWXPvS/GzxnLJ19SBYG3yDjrV1zT3uAEqaD5M0T9o6chr/f5p+zC4qLFEYgHlxjIwTe3KTAZ4EEaNWHYCPbr1Wm/2KHgf5TSoctUAEpTuVC52f2kuTnDkPBotdj+nIQZQ2w3VmcoYb9/XKu7+j4Vy6TSqiz5M1Kbd/DE5oSlWr8/ehMnTGQgcEDl3Pfb1u98NE8WRWf+YoB5UxA6L8BAA/S5K513fy2kiJeOavggPvDvootpIIkYKZLsdpH+JLehLqK8P1l"
+                }
+              ]
+            }
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 1088,
+          "completion_tokens": 182,
+          "total_tokens": 1270,
+          "cost": 0.00024845,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 401
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00024845,
+            "upstream_inference_prompt_cost": 0.00015745,
+            "upstream_inference_completions_cost": 9.1e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 118
+          }
+        }
+      }
+    }
+  ]
+}

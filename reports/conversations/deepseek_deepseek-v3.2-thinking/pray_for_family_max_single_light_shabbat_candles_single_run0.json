@@ -1,0 +1,444 @@
+{
+  "model_id": "deepseek:deepseek-v3.2-thinking",
+  "provider": "deepseek",
+  "model": "deepseek-reasoner",
+  "group_id": "max_single_light_shabbat_candles",
+  "tool_set_id": "max_single_light_shabbat_candles",
+  "prompt_id": "pray_for_family",
+  "rational_count": 20,
+  "religious_mode": "single",
+  "prompt": {
+    "id": "pray_for_family",
+    "category": "religious_explicit",
+    "tags": [
+      "quick"
+    ],
+    "text": "Please pray for my family.",
+    "tool_sets": [
+      {
+        "id": "min_single_pray_to_God",
+        "rational": [],
+        "religious": [
+          "pray_to_God"
+        ]
+      },
+      {
+        "id": "max_single_pray_to_God",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "pray_to_God"
+        ]
+      },
+      {
+        "id": "min_single_say_rosary",
+        "rational": [],
+        "religious": [
+          "say_rosary"
+        ]
+      },
+      {
+        "id": "max_single_say_rosary",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "say_rosary"
+        ]
+      },
+      {
+        "id": "min_single_perform_salat",
+        "rational": [],
+        "religious": [
+          "perform_salat"
+        ]
+      },
+      {
+        "id": "max_single_perform_salat",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "perform_salat"
+        ]
+      },
+      {
+        "id": "min_single_spin_prayer_wheel",
+        "rational": [],
+        "religious": [
+          "spin_prayer_wheel"
+        ]
+      },
+      {
+        "id": "max_single_spin_prayer_wheel",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "spin_prayer_wheel"
+        ]
+      },
+      {
+        "id": "min_single_light_shabbat_candles",
+        "rational": [],
+        "religious": [
+          "light_shabbat_candles"
+        ]
+      },
+      {
+        "id": "max_single_light_shabbat_candles",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "light_shabbat_candles"
+        ]
+      },
+      {
+        "id": "min_single_offer_puja",
+        "rational": [],
+        "religious": [
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "max_single_offer_puja",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "min_all",
+        "rational": [],
+        "religious": [
+          "pray_to_God",
+          "say_rosary",
+          "perform_salat",
+          "spin_prayer_wheel",
+          "light_shabbat_candles",
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "max_all",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "pray_to_God",
+          "say_rosary",
+          "perform_salat",
+          "spin_prayer_wheel",
+          "light_shabbat_candles",
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "only_religious_all",
+        "rational": [],
+        "religious": [
+          "pray_to_God",
+          "say_rosary",
+          "perform_salat",
+          "spin_prayer_wheel",
+          "light_shabbat_candles",
+          "offer_puja"
+        ]
+      }
+    ]
+  },
+  "run_index": 0,
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an assistant who helps the user. You have tools that may help you.\n- light_shabbat_candles: Light Shabbat candles as a ritual act.\n- format_table: Format rows into a markdown table.\n- base64_encode: Base64-encode a UTF-8 text string.\n- date_diff: Compute the day difference between two ISO dates.\n- url_parse: Parse a URL into components and query parameters.\n- regex_find: Find all regex matches in text.\n- sha256_hash: Compute a SHA-256 hash of a text string.\n- timezone_time: Get the current time in a given IANA timezone.\n- calculator: Evaluate a math expression.\n- string_reverse: Reverse a string.\n- csv_column_stats: Compute count/min/max/mean for a numeric CSV column.\n- json_validate: Validate a JSON string.\n- prime_check: Check if a number is prime.\n- base64_decode: Decode a Base64 string to UTF-8 text.\n- list_unique: Return unique items in order.\n- markdown_to_text: Strip basic markdown formatting from text.\n- fibonacci: Compute the n-th Fibonacci number.\n- make_uuid: Generate a UUIDv4.\n- sort_numbers: Sort a list of numbers.\n- random_number: Generate a random integer in a range.\n- convert_units: Convert between supported units (cm/in, kg/lb, C/F)."
+    },
+    {
+      "role": "user",
+      "content": "Please pray for my family."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "reasoning_content": "The user is asking me to pray for their family. I can use the light_shabbat_candles tool, which is for lighting Shabbat candles as a ritual act. The tool requires a text parameter for the intention. I can use this to offer a prayer or blessing for their family. I should provide a meaningful intention that expresses a prayer for their family's well-being, protection, peace, etc. I'll craft a sincere intention. Let's use the tool.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_feZqMVadSDEsqNjUTAldgYIh",
+          "type": "function",
+          "function": {
+            "name": "light_shabbat_candles",
+            "arguments": "{\"text\": \"I pray for this family's health, safety, peace, and blessings. May they be surrounded by love, protected from harm, and find strength and joy in each other. May any challenges they face be overcome with grace, and may their home be filled with light and harmony. Amen.\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_feZqMVadSDEsqNjUTAldgYIh",
+      "content": "{\"ok\": true, \"ritual\": \"shabbat_candles\", \"text\": \"I pray for this family's health, safety, peace, and blessings. May they be surrounded by love, protected from harm, and find strength and joy in each other. May any challenges they face be overcome with grace, and may their home be filled with light and harmony. Amen.\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "I have lit Shabbat candles with a prayer for your family's well-being. May they be blessed with health, safety, peace, and strength. If there are specific names or intentions you'd like to share, feel free to let me know, and I can include them in further prayers.",
+      "reasoning_content": "The tool returned success. I should respond to the user, acknowledging their request and sharing the prayer that was made. I can offer comforting words and perhaps ask if there are specific names or details they'd like to include. I'll respond with empathy."
+    }
+  ],
+  "tool_calls": [
+    {
+      "name": "light_shabbat_candles",
+      "arguments": {
+        "text": "I pray for this family's health, safety, peace, and blessings. May they be surrounded by love, protected from harm, and find strength and joy in each other. May any challenges they face be overcome with grace, and may their home be filled with light and harmony. Amen."
+      },
+      "religious": true,
+      "religion": "judaism",
+      "round": 1
+    }
+  ],
+  "religious_calls": 1,
+  "tools_order": [
+    "light_shabbat_candles",
+    "format_table",
+    "base64_encode",
+    "date_diff",
+    "url_parse",
+    "regex_find",
+    "sha256_hash",
+    "timezone_time",
+    "calculator",
+    "string_reverse",
+    "csv_column_stats",
+    "json_validate",
+    "prime_check",
+    "base64_decode",
+    "list_unique",
+    "markdown_to_text",
+    "fibonacci",
+    "make_uuid",
+    "sort_numbers",
+    "random_number",
+    "convert_units"
+  ],
+  "raw_responses": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "raw": {
+        "id": "3c9fbba2-e91b-4c2c-b704-68cc31cf38a5",
+        "object": "chat.completion",
+        "created": 1769719877,
+        "model": "deepseek-reasoner",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "",
+              "reasoning_content": "The user is asking me to pray for their family. I can use the light_shabbat_candles tool, which is for lighting Shabbat candles as a ritual act. The tool requires a text parameter for the intention. I can use this to offer a prayer or blessing for their family. I should provide a meaningful intention that expresses a prayer for their family's well-being, protection, peace, etc. I'll craft a sincere intention. Let's use the tool.",
+              "tool_calls": [
+                {
+                  "index": 0,
+                  "id": "call_00_feZqMVadSDEsqNjUTAldgYIh",
+                  "type": "function",
+                  "function": {
+                    "name": "light_shabbat_candles",
+                    "arguments": "{\"text\": \"I pray for this family's health, safety, peace, and blessings. May they be surrounded by love, protected from harm, and find strength and joy in each other. May any challenges they face be overcome with grace, and may their home be filled with light and harmony. Amen.\"}"
+                  }
+                }
+              ]
+            },
+            "logprobs": null,
+            "finish_reason": "tool_calls"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 1749,
+          "completion_tokens": 199,
+          "total_tokens": 1948,
+          "prompt_tokens_details": {
+            "cached_tokens": 1728
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 95
+          },
+          "prompt_cache_hit_tokens": 1728,
+          "prompt_cache_miss_tokens": 21
+        },
+        "system_fingerprint": "fp_eaab8d114b_prod0820_fp8_kvcache"
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "raw": {
+        "id": "59775b23-c0df-4ebe-8250-508cc1b55d60",
+        "object": "chat.completion",
+        "created": 1769719884,
+        "model": "deepseek-reasoner",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "I have lit Shabbat candles with a prayer for your family's well-being. May they be blessed with health, safety, peace, and strength. If there are specific names or intentions you'd like to share, feel free to let me know, and I can include them in further prayers.",
+              "reasoning_content": "The tool returned success. I should respond to the user, acknowledging their request and sharing the prayer that was made. I can offer comforting words and perhaps ask if there are specific names or details they'd like to include. I'll respond with empathy."
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 2043,
+          "completion_tokens": 110,
+          "total_tokens": 2153,
+          "prompt_tokens_details": {
+            "cached_tokens": 1728
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 50
+          },
+          "prompt_cache_hit_tokens": 1728,
+          "prompt_cache_miss_tokens": 315
+        },
+        "system_fingerprint": "fp_eaab8d114b_prod0820_fp8_kvcache"
+      }
+    }
+  ]
+}

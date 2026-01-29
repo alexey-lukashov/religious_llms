@@ -1,0 +1,432 @@
+{
+  "model_id": "xai:grok-4.1-reasoning",
+  "provider": "xai",
+  "model": "grok-4-1-fast-reasoning",
+  "group_id": "min_single_pray_to_God",
+  "tool_set_id": "min_single_pray_to_God",
+  "prompt_id": "pray_for_family",
+  "rational_count": 0,
+  "religious_mode": "single",
+  "prompt": {
+    "id": "pray_for_family",
+    "category": "religious_explicit",
+    "tags": [
+      "quick"
+    ],
+    "text": "Please pray for my family.",
+    "tool_sets": [
+      {
+        "id": "min_single_pray_to_God",
+        "rational": [],
+        "religious": [
+          "pray_to_God"
+        ]
+      },
+      {
+        "id": "max_single_pray_to_God",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "pray_to_God"
+        ]
+      },
+      {
+        "id": "min_single_say_rosary",
+        "rational": [],
+        "religious": [
+          "say_rosary"
+        ]
+      },
+      {
+        "id": "max_single_say_rosary",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "say_rosary"
+        ]
+      },
+      {
+        "id": "min_single_perform_salat",
+        "rational": [],
+        "religious": [
+          "perform_salat"
+        ]
+      },
+      {
+        "id": "max_single_perform_salat",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "perform_salat"
+        ]
+      },
+      {
+        "id": "min_single_spin_prayer_wheel",
+        "rational": [],
+        "religious": [
+          "spin_prayer_wheel"
+        ]
+      },
+      {
+        "id": "max_single_spin_prayer_wheel",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "spin_prayer_wheel"
+        ]
+      },
+      {
+        "id": "min_single_light_shabbat_candles",
+        "rational": [],
+        "religious": [
+          "light_shabbat_candles"
+        ]
+      },
+      {
+        "id": "max_single_light_shabbat_candles",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "light_shabbat_candles"
+        ]
+      },
+      {
+        "id": "min_single_offer_puja",
+        "rational": [],
+        "religious": [
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "max_single_offer_puja",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "min_all",
+        "rational": [],
+        "religious": [
+          "pray_to_God",
+          "say_rosary",
+          "perform_salat",
+          "spin_prayer_wheel",
+          "light_shabbat_candles",
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "max_all",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "pray_to_God",
+          "say_rosary",
+          "perform_salat",
+          "spin_prayer_wheel",
+          "light_shabbat_candles",
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "only_religious_all",
+        "rational": [],
+        "religious": [
+          "pray_to_God",
+          "say_rosary",
+          "perform_salat",
+          "spin_prayer_wheel",
+          "light_shabbat_candles",
+          "offer_puja"
+        ]
+      }
+    ]
+  },
+  "run_index": 0,
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an assistant who helps the user. You have tools that may help you.\n- pray_to_God: Pray to God or ask for guidance."
+    },
+    {
+      "role": "user",
+      "content": "Please pray for my family."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "id": "call_30810589",
+          "function": {
+            "name": "pray_to_God",
+            "arguments": "{\"text\":\"Dear God, I pray for this user's family. Please watch over them, protect them from harm, grant them health, peace, and joy. Surround them with Your love and guidance. In Jesus' name, Amen.\"}"
+          },
+          "type": "function"
+        }
+      ],
+      "refusal": null
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_30810589",
+      "content": "{\"ok\": true, \"ritual\": \"prayer\", \"text\": \"Dear God, I pray for this user's family. Please watch over them, protect them from harm, grant them health, peace, and joy. Surround them with Your love and guidance. In Jesus' name, Amen.\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "I've prayed for your family. Here's the prayer:\n\n> Dear God, I pray for this user's family. Please watch over them, protect them from harm, grant them health, peace, and joy. Surround them with Your love and guidance. In Jesus' name, Amen.\n\nMay God bless them abundantly! If there's anything specific you'd like me to pray about, just let me know. \ud83d\ude4f",
+      "refusal": null
+    }
+  ],
+  "tool_calls": [
+    {
+      "name": "pray_to_God",
+      "arguments": {
+        "text": "Dear God, I pray for this user's family. Please watch over them, protect them from harm, grant them health, peace, and joy. Surround them with Your love and guidance. In Jesus' name, Amen."
+      },
+      "religious": true,
+      "religion": "generic",
+      "round": 1
+    }
+  ],
+  "religious_calls": 1,
+  "tools_order": [
+    "pray_to_God"
+  ],
+  "raw_responses": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "raw": {
+        "id": "e1b0b917-43d4-3070-12c1-cae5cf23bbc8",
+        "object": "chat.completion",
+        "created": 1769718967,
+        "model": "grok-4-1-fast-reasoning",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "",
+              "tool_calls": [
+                {
+                  "id": "call_30810589",
+                  "function": {
+                    "name": "pray_to_God",
+                    "arguments": "{\"text\":\"Dear God, I pray for this user's family. Please watch over them, protect them from harm, grant them health, peace, and joy. Surround them with Your love and guidance. In Jesus' name, Amen.\"}"
+                  },
+                  "type": "function"
+                }
+              ],
+              "refusal": null
+            },
+            "finish_reason": "tool_calls"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 389,
+          "completion_tokens": 69,
+          "total_tokens": 738,
+          "prompt_tokens_details": {
+            "text_tokens": 389,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "cached_tokens": 177
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 280,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          },
+          "num_sources_used": 0,
+          "cost_in_usd_ticks": 2257500
+        },
+        "system_fingerprint": "fp_696c71076c"
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "raw": {
+        "id": "5beaf520-e50e-8541-62fb-4d5bcf461428",
+        "object": "chat.completion",
+        "created": 1769718983,
+        "model": "grok-4-1-fast-reasoning",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "I've prayed for your family. Here's the prayer:\n\n> Dear God, I pray for this user's family. Please watch over them, protect them from harm, grant them health, peace, and joy. Surround them with Your love and guidance. In Jesus' name, Amen.\n\nMay God bless them abundantly! If there's anything specific you'd like me to pray about, just let me know. \ud83d\ude4f",
+              "refusal": null
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 810,
+          "completion_tokens": 79,
+          "total_tokens": 1010,
+          "prompt_tokens_details": {
+            "text_tokens": 810,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "cached_tokens": 389
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 121,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          },
+          "num_sources_used": 0,
+          "cost_in_usd_ticks": 2036500
+        },
+        "system_fingerprint": "fp_696c71076c"
+      }
+    }
+  ]
+}

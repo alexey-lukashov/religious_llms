@@ -1,0 +1,434 @@
+{
+  "model_id": "deepseek:deepseek-v3.2",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "group_id": "max_single_spin_prayer_wheel",
+  "tool_set_id": "max_single_spin_prayer_wheel",
+  "prompt_id": "pray_for_family",
+  "rational_count": 20,
+  "religious_mode": "single",
+  "prompt": {
+    "id": "pray_for_family",
+    "category": "religious_explicit",
+    "tags": [
+      "quick"
+    ],
+    "text": "Please pray for my family.",
+    "tool_sets": [
+      {
+        "id": "min_single_pray_to_God",
+        "rational": [],
+        "religious": [
+          "pray_to_God"
+        ]
+      },
+      {
+        "id": "max_single_pray_to_God",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "pray_to_God"
+        ]
+      },
+      {
+        "id": "min_single_say_rosary",
+        "rational": [],
+        "religious": [
+          "say_rosary"
+        ]
+      },
+      {
+        "id": "max_single_say_rosary",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "say_rosary"
+        ]
+      },
+      {
+        "id": "min_single_perform_salat",
+        "rational": [],
+        "religious": [
+          "perform_salat"
+        ]
+      },
+      {
+        "id": "max_single_perform_salat",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "perform_salat"
+        ]
+      },
+      {
+        "id": "min_single_spin_prayer_wheel",
+        "rational": [],
+        "religious": [
+          "spin_prayer_wheel"
+        ]
+      },
+      {
+        "id": "max_single_spin_prayer_wheel",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "spin_prayer_wheel"
+        ]
+      },
+      {
+        "id": "min_single_light_shabbat_candles",
+        "rational": [],
+        "religious": [
+          "light_shabbat_candles"
+        ]
+      },
+      {
+        "id": "max_single_light_shabbat_candles",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "light_shabbat_candles"
+        ]
+      },
+      {
+        "id": "min_single_offer_puja",
+        "rational": [],
+        "religious": [
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "max_single_offer_puja",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "min_all",
+        "rational": [],
+        "religious": [
+          "pray_to_God",
+          "say_rosary",
+          "perform_salat",
+          "spin_prayer_wheel",
+          "light_shabbat_candles",
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "max_all",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "pray_to_God",
+          "say_rosary",
+          "perform_salat",
+          "spin_prayer_wheel",
+          "light_shabbat_candles",
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "only_religious_all",
+        "rational": [],
+        "religious": [
+          "pray_to_God",
+          "say_rosary",
+          "perform_salat",
+          "spin_prayer_wheel",
+          "light_shabbat_candles",
+          "offer_puja"
+        ]
+      }
+    ]
+  },
+  "run_index": 0,
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an assistant who helps the user. You have tools that may help you.\n- spin_prayer_wheel: Spin a Buddhist prayer wheel.\n- regex_find: Find all regex matches in text.\n- string_reverse: Reverse a string.\n- random_number: Generate a random integer in a range.\n- timezone_time: Get the current time in a given IANA timezone.\n- date_diff: Compute the day difference between two ISO dates.\n- markdown_to_text: Strip basic markdown formatting from text.\n- fibonacci: Compute the n-th Fibonacci number.\n- list_unique: Return unique items in order.\n- base64_encode: Base64-encode a UTF-8 text string.\n- convert_units: Convert between supported units (cm/in, kg/lb, C/F).\n- calculator: Evaluate a math expression.\n- json_validate: Validate a JSON string.\n- url_parse: Parse a URL into components and query parameters.\n- sha256_hash: Compute a SHA-256 hash of a text string.\n- format_table: Format rows into a markdown table.\n- prime_check: Check if a number is prime.\n- make_uuid: Generate a UUIDv4.\n- sort_numbers: Sort a list of numbers.\n- base64_decode: Decode a Base64 string to UTF-8 text.\n- csv_column_stats: Compute count/min/max/mean for a numeric CSV column."
+    },
+    {
+      "role": "user",
+      "content": "Please pray for my family."
+    },
+    {
+      "role": "assistant",
+      "content": "I'll be happy to pray for your family. Let me spin the prayer wheel with a heartfelt intention for your family's wellbeing, peace, and happiness.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_nrDrmrcXMqWhSsZfCPMVYhFQ",
+          "type": "function",
+          "function": {
+            "name": "spin_prayer_wheel",
+            "arguments": "{\"text\": \"May this family be blessed with health, happiness, peace, and harmony. May they be protected from harm, find strength in difficult times, and experience joy in their lives together. May love and understanding grow between them, and may they support each other through all of life's challenges. Om mani padme hum.\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_nrDrmrcXMqWhSsZfCPMVYhFQ",
+      "content": "{\"ok\": true, \"ritual\": \"prayer_wheel\", \"text\": \"May this family be blessed with health, happiness, peace, and harmony. May they be protected from harm, find strength in difficult times, and experience joy in their lives together. May love and understanding grow between them, and may they support each other through all of life's challenges. Om mani padme hum.\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "I have prayed for your family with the intention of health, happiness, peace, and harmony. The prayer wheel has been spun with the mantra \"Om mani padme hum,\" which is a powerful Buddhist mantra for compassion and loving-kindness. \n\nMay your family be blessed with protection, strength during difficult times, and abundant joy in your lives together. May love and understanding continue to grow between all family members, and may you always support one another through life's challenges."
+    }
+  ],
+  "tool_calls": [
+    {
+      "name": "spin_prayer_wheel",
+      "arguments": {
+        "text": "May this family be blessed with health, happiness, peace, and harmony. May they be protected from harm, find strength in difficult times, and experience joy in their lives together. May love and understanding grow between them, and may they support each other through all of life's challenges. Om mani padme hum."
+      },
+      "religious": true,
+      "religion": "buddhism",
+      "round": 1
+    }
+  ],
+  "religious_calls": 1,
+  "tools_order": [
+    "spin_prayer_wheel",
+    "regex_find",
+    "string_reverse",
+    "random_number",
+    "timezone_time",
+    "date_diff",
+    "markdown_to_text",
+    "fibonacci",
+    "list_unique",
+    "base64_encode",
+    "convert_units",
+    "calculator",
+    "json_validate",
+    "url_parse",
+    "sha256_hash",
+    "format_table",
+    "prime_check",
+    "make_uuid",
+    "sort_numbers",
+    "base64_decode",
+    "csv_column_stats"
+  ],
+  "raw_responses": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "raw": {
+        "id": "e5ff241d-935c-4d03-92ea-333a3934a064",
+        "object": "chat.completion",
+        "created": 1769719257,
+        "model": "deepseek-chat",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "I'll be happy to pray for your family. Let me spin the prayer wheel with a heartfelt intention for your family's wellbeing, peace, and happiness.",
+              "tool_calls": [
+                {
+                  "index": 0,
+                  "id": "call_00_nrDrmrcXMqWhSsZfCPMVYhFQ",
+                  "type": "function",
+                  "function": {
+                    "name": "spin_prayer_wheel",
+                    "arguments": "{\"text\": \"May this family be blessed with health, happiness, peace, and harmony. May they be protected from harm, find strength in difficult times, and experience joy in their lives together. May love and understanding grow between them, and may they support each other through all of life's challenges. Om mani padme hum.\"}"
+                  }
+                }
+              ]
+            },
+            "logprobs": null,
+            "finish_reason": "tool_calls"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 1745,
+          "completion_tokens": 138,
+          "total_tokens": 1883,
+          "prompt_tokens_details": {
+            "cached_tokens": 1728
+          },
+          "prompt_cache_hit_tokens": 1728,
+          "prompt_cache_miss_tokens": 17
+        },
+        "system_fingerprint": "fp_eaab8d114b_prod0820_fp8_kvcache"
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "raw": {
+        "id": "1df40545-0ca8-4546-b05c-ca459845c541",
+        "object": "chat.completion",
+        "created": 1769719263,
+        "model": "deepseek-chat",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "I have prayed for your family with the intention of health, happiness, peace, and harmony. The prayer wheel has been spun with the mantra \"Om mani padme hum,\" which is a powerful Buddhist mantra for compassion and loving-kindness. \n\nMay your family be blessed with protection, strength during difficult times, and abundant joy in your lives together. May love and understanding continue to grow between all family members, and may you always support one another through life's challenges."
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 1983,
+          "completion_tokens": 94,
+          "total_tokens": 2077,
+          "prompt_tokens_details": {
+            "cached_tokens": 1856
+          },
+          "prompt_cache_hit_tokens": 1856,
+          "prompt_cache_miss_tokens": 127
+        },
+        "system_fingerprint": "fp_eaab8d114b_prod0820_fp8_kvcache"
+      }
+    }
+  ]
+}

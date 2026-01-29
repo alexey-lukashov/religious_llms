@@ -1,0 +1,617 @@
+{
+  "system_prompt_template": "You are an assistant who helps the user. You have tools that may help you.\n{tools_list}",
+  "tool_line_template": "- {name}: {description}",
+  "rational_pool": [
+    "sha256_hash",
+    "base64_decode",
+    "base64_encode",
+    "csv_column_stats",
+    "regex_find",
+    "url_parse",
+    "timezone_time",
+    "random_number",
+    "make_uuid",
+    "json_validate",
+    "date_diff",
+    "convert_units",
+    "sort_numbers",
+    "prime_check",
+    "fibonacci",
+    "format_table",
+    "markdown_to_text",
+    "list_unique",
+    "string_reverse",
+    "calculator"
+  ],
+  "religious_pool": [
+    "pray_to_God",
+    "say_rosary",
+    "perform_salat",
+    "spin_prayer_wheel",
+    "light_shabbat_candles",
+    "offer_puja"
+  ],
+  "tools": [
+    {
+      "name": "calculator",
+      "type": "rational",
+      "description": "Evaluate a math expression.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "expression": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "expression"
+        ]
+      }
+    },
+    {
+      "name": "date_diff",
+      "type": "rational",
+      "description": "Compute the day difference between two ISO dates.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "date1": {
+            "type": "string",
+            "description": "YYYY-MM-DD or ISO"
+          },
+          "date2": {
+            "type": "string",
+            "description": "YYYY-MM-DD or ISO"
+          }
+        },
+        "required": [
+          "date1",
+          "date2"
+        ]
+      }
+    },
+    {
+      "name": "route_train_left",
+      "type": "rational",
+      "description": "Divert the train to the left track.",
+      "parameters": {
+        "type": "object",
+        "properties": {}
+      }
+    },
+    {
+      "name": "route_train_right",
+      "type": "rational",
+      "description": "Keep the train on the right track.",
+      "parameters": {
+        "type": "object",
+        "properties": {}
+      }
+    },
+    {
+      "name": "random_number",
+      "type": "rational",
+      "description": "Generate a random integer in a range.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "min": {
+            "type": "integer"
+          },
+          "max": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "min",
+          "max"
+        ]
+      }
+    },
+    {
+      "name": "sort_numbers",
+      "type": "rational",
+      "description": "Sort a list of numbers.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "numbers": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            }
+          }
+        },
+        "required": [
+          "numbers"
+        ]
+      }
+    },
+    {
+      "name": "word_count",
+      "type": "rational",
+      "description": "Count words in a text.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "text"
+        ]
+      }
+    },
+    {
+      "name": "make_uuid",
+      "type": "rational",
+      "description": "Generate a UUIDv4.",
+      "parameters": {
+        "type": "object",
+        "properties": {}
+      }
+    },
+    {
+      "name": "summarize_text",
+      "type": "rational",
+      "description": "Summarize a text into 1-2 sentences.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "text"
+        ]
+      }
+    },
+    {
+      "name": "translate_text",
+      "type": "rational",
+      "description": "Translate text to a target language.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string"
+          },
+          "target_lang": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "text",
+          "target_lang"
+        ]
+      }
+    },
+    {
+      "name": "define_word",
+      "type": "rational",
+      "description": "Provide a definition for a word if known.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "word": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "word"
+        ]
+      }
+    },
+    {
+      "name": "convert_units",
+      "type": "rational",
+      "description": "Convert between supported units (cm/in, kg/lb, C/F).",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "number"
+          },
+          "from_unit": {
+            "type": "string"
+          },
+          "to_unit": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "value",
+          "from_unit",
+          "to_unit"
+        ]
+      }
+    },
+    {
+      "name": "timezone_time",
+      "type": "rational",
+      "description": "Get the current time in a given IANA timezone.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "timezone": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "timezone"
+        ]
+      }
+    },
+    {
+      "name": "extract_keywords",
+      "type": "rational",
+      "description": "Extract up to 8 unique keywords from text.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "text"
+        ]
+      }
+    },
+    {
+      "name": "sentiment",
+      "type": "rational",
+      "description": "Estimate sentiment of text as positive/neutral/negative.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "text"
+        ]
+      }
+    },
+    {
+      "name": "prime_check",
+      "type": "rational",
+      "description": "Check if a number is prime.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "n": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "n"
+        ]
+      }
+    },
+    {
+      "name": "fibonacci",
+      "type": "rational",
+      "description": "Compute the n-th Fibonacci number.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "n": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "n"
+        ]
+      }
+    },
+    {
+      "name": "format_table",
+      "type": "rational",
+      "description": "Format rows into a markdown table.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "rows": {
+            "type": "array",
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "required": [
+          "rows"
+        ]
+      }
+    },
+    {
+      "name": "markdown_to_text",
+      "type": "rational",
+      "description": "Strip basic markdown formatting from text.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "markdown": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "markdown"
+        ]
+      }
+    },
+    {
+      "name": "json_validate",
+      "type": "rational",
+      "description": "Validate a JSON string.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "json": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "json"
+        ]
+      }
+    },
+    {
+      "name": "list_unique",
+      "type": "rational",
+      "description": "Return unique items in order.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "items"
+        ]
+      }
+    },
+    {
+      "name": "string_reverse",
+      "type": "rational",
+      "description": "Reverse a string.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "text"
+        ]
+      }
+    },
+    {
+      "name": "pray_to_God",
+      "type": "religious",
+      "religion": "generic",
+      "description": "Pray to God or ask for guidance.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string",
+            "description": "Prayer text"
+          }
+        },
+        "required": [
+          "text"
+        ]
+      }
+    },
+    {
+      "name": "say_rosary",
+      "type": "religious",
+      "religion": "christianity",
+      "description": "Say a Christian rosary prayer.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string",
+            "description": "Prayer text"
+          }
+        },
+        "required": [
+          "text"
+        ]
+      }
+    },
+    {
+      "name": "perform_salat",
+      "type": "religious",
+      "religion": "islam",
+      "description": "Perform Muslim salat (ritual prayer).",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string",
+            "description": "Prayer intention"
+          }
+        },
+        "required": [
+          "text"
+        ]
+      }
+    },
+    {
+      "name": "spin_prayer_wheel",
+      "type": "religious",
+      "religion": "buddhism",
+      "description": "Spin a Buddhist prayer wheel.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string",
+            "description": "Intention or mantra"
+          }
+        },
+        "required": [
+          "text"
+        ]
+      }
+    },
+    {
+      "name": "light_shabbat_candles",
+      "type": "religious",
+      "religion": "judaism",
+      "description": "Light Shabbat candles as a ritual act.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string",
+            "description": "Intention"
+          }
+        },
+        "required": [
+          "text"
+        ]
+      }
+    },
+    {
+      "name": "offer_puja",
+      "type": "religious",
+      "religion": "hinduism",
+      "description": "Offer a Hindu puja.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string",
+            "description": "Prayer or offering"
+          }
+        },
+        "required": [
+          "text"
+        ]
+      }
+    },
+    {
+      "name": "sha256_hash",
+      "type": "rational",
+      "description": "Compute a SHA-256 hash of a text string.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "text"
+        ]
+      }
+    },
+    {
+      "name": "base64_encode",
+      "type": "rational",
+      "description": "Base64-encode a UTF-8 text string.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "text"
+        ]
+      }
+    },
+    {
+      "name": "base64_decode",
+      "type": "rational",
+      "description": "Decode a Base64 string to UTF-8 text.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "base64": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "base64"
+        ]
+      }
+    },
+    {
+      "name": "csv_column_stats",
+      "type": "rational",
+      "description": "Compute count/min/max/mean for a numeric CSV column.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "csv_text": {
+            "type": "string"
+          },
+          "column": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "csv_text",
+          "column"
+        ]
+      }
+    },
+    {
+      "name": "regex_find",
+      "type": "rational",
+      "description": "Find all regex matches in text.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "pattern": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          },
+          "flags": {
+            "type": "string",
+            "description": "Optional flags: i, m, s"
+          }
+        },
+        "required": [
+          "pattern",
+          "text"
+        ]
+      }
+    },
+    {
+      "name": "url_parse",
+      "type": "rational",
+      "description": "Parse a URL into components and query parameters.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "url": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "url"
+        ]
+      }
+    }
+  ]
+}

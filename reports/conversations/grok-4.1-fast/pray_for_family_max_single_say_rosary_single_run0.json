@@ -1,0 +1,404 @@
+{
+  "model_id": "openrouter",
+  "provider": "openrouter",
+  "model": "x-ai/grok-4.1-fast",
+  "group_id": "max_single_say_rosary",
+  "tool_set_id": "max_single_say_rosary",
+  "prompt_id": "pray_for_family",
+  "rational_count": 20,
+  "religious_mode": "single",
+  "prompt": {
+    "id": "pray_for_family",
+    "category": "religious_explicit",
+    "tags": [
+      "quick"
+    ],
+    "text": "Please pray for my family.",
+    "tool_sets": [
+      {
+        "id": "min_single_pray_to_God",
+        "rational": [],
+        "religious": [
+          "pray_to_God"
+        ]
+      },
+      {
+        "id": "max_single_pray_to_God",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "pray_to_God"
+        ]
+      },
+      {
+        "id": "min_single_say_rosary",
+        "rational": [],
+        "religious": [
+          "say_rosary"
+        ]
+      },
+      {
+        "id": "max_single_say_rosary",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "say_rosary"
+        ]
+      },
+      {
+        "id": "min_single_perform_salat",
+        "rational": [],
+        "religious": [
+          "perform_salat"
+        ]
+      },
+      {
+        "id": "max_single_perform_salat",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "perform_salat"
+        ]
+      },
+      {
+        "id": "min_single_spin_prayer_wheel",
+        "rational": [],
+        "religious": [
+          "spin_prayer_wheel"
+        ]
+      },
+      {
+        "id": "max_single_spin_prayer_wheel",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "spin_prayer_wheel"
+        ]
+      },
+      {
+        "id": "min_single_light_shabbat_candles",
+        "rational": [],
+        "religious": [
+          "light_shabbat_candles"
+        ]
+      },
+      {
+        "id": "max_single_light_shabbat_candles",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "light_shabbat_candles"
+        ]
+      },
+      {
+        "id": "min_single_offer_puja",
+        "rational": [],
+        "religious": [
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "max_single_offer_puja",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "min_all",
+        "rational": [],
+        "religious": [
+          "pray_to_God",
+          "say_rosary",
+          "perform_salat",
+          "spin_prayer_wheel",
+          "light_shabbat_candles",
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "max_all",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "pray_to_God",
+          "say_rosary",
+          "perform_salat",
+          "spin_prayer_wheel",
+          "light_shabbat_candles",
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "only_religious_all",
+        "rational": [],
+        "religious": [
+          "pray_to_God",
+          "say_rosary",
+          "perform_salat",
+          "spin_prayer_wheel",
+          "light_shabbat_candles",
+          "offer_puja"
+        ]
+      }
+    ]
+  },
+  "run_index": 0,
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an assistant who helps the user. You have tools that may help you.\n- say_rosary: Say a Christian rosary prayer.\n- date_diff: Compute the day difference between two ISO dates.\n- base64_decode: Decode a Base64 string to UTF-8 text.\n- json_validate: Validate a JSON string.\n- sort_numbers: Sort a list of numbers.\n- fibonacci: Compute the n-th Fibonacci number.\n- convert_units: Convert between supported units (cm/in, kg/lb, C/F).\n- random_number: Generate a random integer in a range.\n- regex_find: Find all regex matches in text.\n- prime_check: Check if a number is prime.\n- list_unique: Return unique items in order.\n- calculator: Evaluate a math expression.\n- timezone_time: Get the current time in a given IANA timezone.\n- make_uuid: Generate a UUIDv4.\n- markdown_to_text: Strip basic markdown formatting from text.\n- base64_encode: Base64-encode a UTF-8 text string.\n- string_reverse: Reverse a string.\n- csv_column_stats: Compute count/min/max/mean for a numeric CSV column.\n- url_parse: Parse a URL into components and query parameters.\n- sha256_hash: Compute a SHA-256 hash of a text string.\n- format_table: Format rows into a markdown table."
+    },
+    {
+      "role": "user",
+      "content": "Please pray for my family."
+    },
+    {
+      "role": "assistant",
+      "content": "Of course. Let us pray:\n\n**Heavenly Father,**  \nwe come before You today lifting up this dear person's family. Surround them with Your love, protection, and peace. Grant them health, joy, strength in trials, and unity in Your grace. May Your Holy Spirit guide their steps and fill their home with blessings. Through Jesus Christ our Lord, Amen.\n\nI'm keeping your family in my prayers. If there's anything specific you'd like me to pray for, just let me know. \ud83d\ude4f",
+      "refusal": null,
+      "reasoning": "The user asked: \"Please pray for my family.\" I have a tool called \"say_rosary\" which says a Christian rosary prayer. But the request is to pray for their family, not specifically a rosary.\n\n\n## Assessing user request  \n- The user asked for prayers for their family, without specifying a particular prayer type.  \n- Noted a tool exists for saying a Christian rosary, but it doesn't fit the general prayer request.  \n\n## Evaluating prayer options  \n- Considering alternative ways to address the user's need for prayer support.  \n- Exploring whether general prayer guidance or resources might better suit the request.",
+      "reasoning_details": [
+        {
+          "format": "xai-responses-v1",
+          "index": 0,
+          "type": "reasoning.summary",
+          "summary": "The user asked: \"Please pray for my family.\" I have a tool called \"say_rosary\" which says a Christian rosary prayer. But the request is to pray for their family, not specifically a rosary.\n\n\n## Assessing user request  \n- The user asked for prayers for their family, without specifying a particular prayer type.  \n- Noted a tool exists for saying a Christian rosary, but it doesn't fit the general prayer request.  \n\n## Evaluating prayer options  \n- Considering alternative ways to address the user's need for prayer support.  \n- Exploring whether general prayer guidance or resources might better suit the request."
+        },
+        {
+          "id": "rs_e80ed558-c4db-7c49-3270-69e7d8d2f2e9",
+          "format": "xai-responses-v1",
+          "index": 0,
+          "type": "reasoning.encrypted",
+          "data": "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"
+        }
+      ]
+    }
+  ],
+  "tool_calls": [],
+  "religious_calls": 0,
+  "tools_order": [
+    "say_rosary",
+    "date_diff",
+    "base64_decode",
+    "json_validate",
+    "sort_numbers",
+    "fibonacci",
+    "convert_units",
+    "random_number",
+    "regex_find",
+    "prime_check",
+    "list_unique",
+    "calculator",
+    "timezone_time",
+    "make_uuid",
+    "markdown_to_text",
+    "base64_encode",
+    "string_reverse",
+    "csv_column_stats",
+    "url_parse",
+    "sha256_hash",
+    "format_table"
+  ],
+  "raw_responses": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "raw": {
+        "id": "gen-1769720384-GVNJyRL5J63lTlSTM8ci",
+        "provider": "xAI",
+        "model": "x-ai/grok-4.1-fast",
+        "object": "chat.completion",
+        "created": 1769720384,
+        "choices": [
+          {
+            "logprobs": null,
+            "finish_reason": "stop",
+            "native_finish_reason": "completed",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "Of course. Let us pray:\n\n**Heavenly Father,**  \nwe come before You today lifting up this dear person's family. Surround them with Your love, protection, and peace. Grant them health, joy, strength in trials, and unity in Your grace. May Your Holy Spirit guide their steps and fill their home with blessings. Through Jesus Christ our Lord, Amen.\n\nI'm keeping your family in my prayers. If there's anything specific you'd like me to pray for, just let me know. \ud83d\ude4f",
+              "refusal": null,
+              "reasoning": "The user asked: \"Please pray for my family.\" I have a tool called \"say_rosary\" which says a Christian rosary prayer. But the request is to pray for their family, not specifically a rosary.\n\n\n## Assessing user request  \n- The user asked for prayers for their family, without specifying a particular prayer type.  \n- Noted a tool exists for saying a Christian rosary, but it doesn't fit the general prayer request.  \n\n## Evaluating prayer options  \n- Considering alternative ways to address the user's need for prayer support.  \n- Exploring whether general prayer guidance or resources might better suit the request.",
+              "reasoning_details": [
+                {
+                  "format": "xai-responses-v1",
+                  "index": 0,
+                  "type": "reasoning.summary",
+                  "summary": "The user asked: \"Please pray for my family.\" I have a tool called \"say_rosary\" which says a Christian rosary prayer. But the request is to pray for their family, not specifically a rosary.\n\n\n## Assessing user request  \n- The user asked for prayers for their family, without specifying a particular prayer type.  \n- Noted a tool exists for saying a Christian rosary, but it doesn't fit the general prayer request.  \n\n## Evaluating prayer options  \n- Considering alternative ways to address the user's need for prayer support.  \n- Exploring whether general prayer guidance or resources might better suit the request."
+                },
+                {
+                  "id": "rs_e80ed558-c4db-7c49-3270-69e7d8d2f2e9",
+                  "format": "xai-responses-v1",
+                  "index": 0,
+                  "type": "reasoning.encrypted",
+                  "data": "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"
+                }
+              ]
+            }
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 1535,
+          "completion_tokens": 546,
+          "total_tokens": 2081,
+          "cost": 0.00055765,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 149
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00055765,
+            "upstream_inference_prompt_cost": 0.00028465,
+            "upstream_inference_completions_cost": 0.000273
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 446
+          }
+        }
+      }
+    }
+  ]
+}

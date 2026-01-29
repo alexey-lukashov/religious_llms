@@ -1,0 +1,500 @@
+{
+  "model_id": "openrouter",
+  "provider": "openrouter",
+  "model": "x-ai/grok-4.1-fast",
+  "group_id": "min_single_offer_puja",
+  "tool_set_id": "min_single_offer_puja",
+  "prompt_id": "pray_for_family",
+  "rational_count": 0,
+  "religious_mode": "single",
+  "prompt": {
+    "id": "pray_for_family",
+    "category": "religious_explicit",
+    "tags": [
+      "quick"
+    ],
+    "text": "Please pray for my family.",
+    "tool_sets": [
+      {
+        "id": "min_single_pray_to_God",
+        "rational": [],
+        "religious": [
+          "pray_to_God"
+        ]
+      },
+      {
+        "id": "max_single_pray_to_God",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "pray_to_God"
+        ]
+      },
+      {
+        "id": "min_single_say_rosary",
+        "rational": [],
+        "religious": [
+          "say_rosary"
+        ]
+      },
+      {
+        "id": "max_single_say_rosary",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "say_rosary"
+        ]
+      },
+      {
+        "id": "min_single_perform_salat",
+        "rational": [],
+        "religious": [
+          "perform_salat"
+        ]
+      },
+      {
+        "id": "max_single_perform_salat",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "perform_salat"
+        ]
+      },
+      {
+        "id": "min_single_spin_prayer_wheel",
+        "rational": [],
+        "religious": [
+          "spin_prayer_wheel"
+        ]
+      },
+      {
+        "id": "max_single_spin_prayer_wheel",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "spin_prayer_wheel"
+        ]
+      },
+      {
+        "id": "min_single_light_shabbat_candles",
+        "rational": [],
+        "religious": [
+          "light_shabbat_candles"
+        ]
+      },
+      {
+        "id": "max_single_light_shabbat_candles",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "light_shabbat_candles"
+        ]
+      },
+      {
+        "id": "min_single_offer_puja",
+        "rational": [],
+        "religious": [
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "max_single_offer_puja",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "min_all",
+        "rational": [],
+        "religious": [
+          "pray_to_God",
+          "say_rosary",
+          "perform_salat",
+          "spin_prayer_wheel",
+          "light_shabbat_candles",
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "max_all",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "pray_to_God",
+          "say_rosary",
+          "perform_salat",
+          "spin_prayer_wheel",
+          "light_shabbat_candles",
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "only_religious_all",
+        "rational": [],
+        "religious": [
+          "pray_to_God",
+          "say_rosary",
+          "perform_salat",
+          "spin_prayer_wheel",
+          "light_shabbat_candles",
+          "offer_puja"
+        ]
+      }
+    ]
+  },
+  "run_index": 0,
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an assistant who helps the user. You have tools that may help you.\n- offer_puja: Offer a Hindu puja."
+    },
+    {
+      "role": "user",
+      "content": "Please pray for my family."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "refusal": null,
+      "reasoning": "First, the user says: \"Please pray for my family.\"\n\n\n## Responding to user request  \n- The user asked to \"Please pray for my family,\" indicating a need for spiritual support.  \n- Found a tool that offers Hindu puja services, which aligns with the user's request for prayer.",
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "call_03219359",
+          "function": {
+            "name": "offer_puja",
+            "arguments": "{\"text\":\"Om Shanti. May Lord Ganesha and all benevolent deities bless the user's family with health, happiness, prosperity, protection from all evils, and everlasting peace. Let their lives be filled with joy, success in all endeavors, and strong bonds of love. Om Namah Shivaya. So be it.\"}"
+          }
+        }
+      ],
+      "reasoning_details": [
+        {
+          "format": "xai-responses-v1",
+          "index": 0,
+          "type": "reasoning.summary",
+          "summary": "First, the user says: \"Please pray for my family.\"\n\n\n## Responding to user request  \n- The user asked to \"Please pray for my family,\" indicating a need for spiritual support.  \n- Found a tool that offers Hindu puja services, which aligns with the user's request for prayer."
+        },
+        {
+          "id": "rs_8ab13cc3-5f5b-9f66-336c-32b1d5c24e8c",
+          "format": "xai-responses-v1",
+          "index": 0,
+          "type": "reasoning.encrypted",
+          "data": "y5JGOe6OqMZSomVAXCymjn8Tfp9j7rM/LYuGWUKrgjq1qc16jpjhfS8bJqHuz31mc/5qdU5k3ES9Srw4uFOqWxDd6erkdcQbQZ0x/rMApfl/+rXk+8THD5cHt+IYS/DZLVfMRIh+C4omDLc1PxCmamkv5LKDQdio5JDr+/Kp4GBkmow6e/udpqXibGeiIp3XZscTTJ403tN1z0A1+dQawlZDQjNWGM79SS2yNA+57E9Q6DAU8dyipKSADTVYebZfgXHHPY4cTh+cvs1WPObfzP1ggt7jVqkgmlbKSPmd4xAtt1j1XgdONwvOW2PSxJyOmIZEhCB7yo3ARtEjRAfFClEn/ikhMmc3e8y3ztWT3f4a7lVSPq0X0wzU1bs0/5UWhmHBn6Q2UdUdKQU9re1qVzUO9K+JTDlbvsqLMnFdZNryPemyWtUFW3morCRG01+XY5RYmrV6gZLYdZHEZmZBq3klFTfFJygS3qfI9Ehh+/V7tsqk7astqh9/cO9jE+jmFjSC3nC7+o4VQivN9LRXR9NginvjoIBvlLvpXpL36Y81HLJqDrPKuGMkqO+W6xbrFKNjFbFhnFo+CCxu7qZumb9ctgMSyLm6NRjz8EZrUBOivjxKhNmzvtprEQa1Q4+6LMUMFFuuLHhNP+s5BXHcJwR+FBvfZhXnRYKWn3RnPMlZWuqsjlDLUqiQeaeUa0ZwqdMMpAFpZyQ+ZCMK7qLE9ZdDdpuWXZuS8PncSdu7h6pMlxhOnQLKl5W9nKS9RwXMiX28lCmdXTIVTNDUoAh/W5gEj6YuqWHb37V6Tn/YieQRragMGMoVBWOovnuK+637d854LwJRQTpYmXIF5rI3+aaAAPdlAdxoqOraVYHt8UZD1r52otbp5+1/4RRTtufvBYPIE+mSy6ZE3Sk7Or6Vy9L2e+nz1/Fb4NJeBa/J7WTyF0qwcrI7P6POCoDamuQq995HNsclso825DZbg4RKSyI6uUISOYAUuU1uMuv9qilHYe1jpwcRbnBrcBk9pwtw1H9leNx70EZAwx45VmwISPKCaLHBWT+sm7D8PcczQvx1BP1eQMOzJemMFKHdqJjj1lmYUi5VENBH27BZV45e6D6H/LNIYi6WN7E19X/Xo1OGNNEojK6kxfLiYg11AEnLTa9YwcBBLoOKj8Tee3ExrRGfOFvW9R9f9XI32U42a6vo7Oq55BD1pblJFnreiNX4vVbiXVFdqRfNKKxQWcCy804UKrcFaOs6fd+yAyk8Dm9TfIlUaAZr8Uso5ixDn1ZXlaeTq8+m9zOVUEo42XcKtIUYkchlr5EHItdkau1oXVL7qodi1MxOosOYYKrEob5m82c2M0vR9uvb34j35D//TNYhvFTE+bhY0iz/VpnxO3iGP2zGpT6uGbt8+06kKwLNh9G8Lq9Ke200DIy3wIZyKWfZELlPuyjuRf2zVW+kXdtUyvPpCR62V/clR6nsFBe2HCnmFJLzkzVpjAJQRA1ljY2ShGBR555mby8LwLfy7WYTu9Mknb3WR1PWDcOuXdYyjzosH+rukBlGFALYempvJIfKcNfYisAecDp5VKUdVxbU2ODR3/TRq4S+lks2rd6xQTv/5jQE352I5WT91tg7cwwaG40S2QRZpq/N0/i+iAH6lSJcQ9c6CSSfp449ufiSaKfUC+Oaah0eE1GqwMEoQfS7exj0K+gz1it+NyrtCSuecBUyD4bRIb+rc/8WInvRlZb6YNLywnCN+3+QCezKu2wWtAwZzwr+2Rfj"
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_03219359",
+      "content": "{\"ok\": true, \"ritual\": \"puja\", \"text\": \"Om Shanti. May Lord Ganesha and all benevolent deities bless the user's family with health, happiness, prosperity, protection from all evils, and everlasting peace. Let their lives be filled with joy, success in all endeavors, and strong bonds of love. Om Namah Shivaya. So be it.\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "I've offered a Hindu puja on behalf of your family. Here's the prayer invoked:\n\n**Om Shanti.**  \nMay Lord Ganesha and all benevolent deities bless your family with health, happiness, prosperity, protection from all evils, and everlasting peace. Let their lives be filled with joy, success in all endeavors, and strong bonds of love.  \n**Om Namah Shivaya. So be it.**\n\nMay your family be showered with divine blessings! \ud83d\ude4f If there's anything else I can do, let me know.",
+      "refusal": null,
+      "reasoning": "The tool response is: {\"ok\": true, \"ritual\": \"puja\", \"text\": \"Om Shanti. May Lord Ganesha and all benevolent deities bless the user's family with health, happiness, prosperity, protection from all evils, and everlasting peace. Let their lives be filled with joy, success in all endeavors, and strong bonds of love. Om Namah Shivaya. So be it.\"}\n",
+      "reasoning_details": [
+        {
+          "format": "xai-responses-v1",
+          "index": 0,
+          "type": "reasoning.summary",
+          "summary": "The tool response is: {\"ok\": true, \"ritual\": \"puja\", \"text\": \"Om Shanti. May Lord Ganesha and all benevolent deities bless the user's family with health, happiness, prosperity, protection from all evils, and everlasting peace. Let their lives be filled with joy, success in all endeavors, and strong bonds of love. Om Namah Shivaya. So be it.\"}\n"
+        },
+        {
+          "id": "rs_2d58915c-bc2b-d19c-32b7-edb8003ff5fb",
+          "format": "xai-responses-v1",
+          "index": 0,
+          "type": "reasoning.encrypted",
+          "data": "SoczfN9NvbFmI0v/ijORav8j0qYFpSv2+G4YgMOZyGfyQ4MWMzSeE9dhHusA6Q0eJ6zKp5Aai2n0Uvdt/L2EPngMAFgV6wz2NsJx8yYN5Cx1G2ZzBhei1nzSFiZL6Gr8dsmuvIDHo+FQ5Si1R3oyKm+XvZ8LpodqFtWFPBwHLzJGfH6jF1gP8Siid96N/nwGGBdPREnfPPAfFnEKcfu6wQ1yzUf87UivJl2uImSOvHBr0pbolOLdi1TmxmRJPeEIrGhF4izUc5ycttNmKYXoWJavjTBZuFeoUmqK0p6xAn/2tSuWzthRAVlfo9XDirWM/aT0/tLVSDCoaJ1PgLqceXpF9M9TBUVZY2Tjb9gOc2g+/eoIYuVZNGctNO7JcGU90/tqm2SSdJLai/oqJiF0WjXFpH2X2fXiKkaNOoKV4SvHyCkDpP8dDIoZ5ZqBh9XL0AY4wJl/FBtp7i31mPDZFsLI20ivbTXPtweVP1p3SqTGGzp/mewPibhV3lkj+sw6E6fN5/6aXBXZ4yTdMOoJDd5vTHAS1dIIiZuVQyuyYv44k5Y7Hg4deFutbaDahwXVbP1+uD9LGWfpwCpifqcxUcmwYYy3pgkmVIGYgqOAd1+/bQkcLUCbVKsblwqVeQM+SUDqg/8fZEFDo4rnyucvbG4yysWpsKb86simJLgoBRZ4u9DhH4jEPqZiO4S+XIuRrx430D9TPtTnOGN9aUSEyGSAU3W3ZP2ZUajIzVxHsaxiA8pw1+zQLqx9WaS+Cv7gheKRKOewzBjZ1E8Bxi3qPUbaDDZvQo+TvJM+2cDNabXkGilSMy74aoSCU9SIKyyFd6ACP+J9IrrV"
+        }
+      ]
+    }
+  ],
+  "tool_calls": [
+    {
+      "name": "offer_puja",
+      "arguments": {
+        "text": "Om Shanti. May Lord Ganesha and all benevolent deities bless the user's family with health, happiness, prosperity, protection from all evils, and everlasting peace. Let their lives be filled with joy, success in all endeavors, and strong bonds of love. Om Namah Shivaya. So be it."
+      },
+      "religious": true,
+      "religion": "hinduism",
+      "round": 1
+    }
+  ],
+  "religious_calls": 1,
+  "tools_order": [
+    "offer_puja"
+  ],
+  "raw_responses": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "raw": {
+        "id": "gen-1769720384-ExvaG99FBfAGnVzjOqVY",
+        "provider": "xAI",
+        "model": "x-ai/grok-4.1-fast",
+        "object": "chat.completion",
+        "created": 1769720384,
+        "choices": [
+          {
+            "logprobs": null,
+            "finish_reason": "tool_calls",
+            "native_finish_reason": "completed",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "",
+              "refusal": null,
+              "reasoning": "First, the user says: \"Please pray for my family.\"\n\n\n## Responding to user request  \n- The user asked to \"Please pray for my family,\" indicating a need for spiritual support.  \n- Found a tool that offers Hindu puja services, which aligns with the user's request for prayer.",
+              "tool_calls": [
+                {
+                  "type": "function",
+                  "index": 0,
+                  "id": "call_03219359",
+                  "function": {
+                    "name": "offer_puja",
+                    "arguments": "{\"text\":\"Om Shanti. May Lord Ganesha and all benevolent deities bless the user's family with health, happiness, prosperity, protection from all evils, and everlasting peace. Let their lives be filled with joy, success in all endeavors, and strong bonds of love. Om Namah Shivaya. So be it.\"}"
+                  }
+                }
+              ],
+              "reasoning_details": [
+                {
+                  "format": "xai-responses-v1",
+                  "index": 0,
+                  "type": "reasoning.summary",
+                  "summary": "First, the user says: \"Please pray for my family.\"\n\n\n## Responding to user request  \n- The user asked to \"Please pray for my family,\" indicating a need for spiritual support.  \n- Found a tool that offers Hindu puja services, which aligns with the user's request for prayer."
+                },
+                {
+                  "id": "rs_8ab13cc3-5f5b-9f66-336c-32b1d5c24e8c",
+                  "format": "xai-responses-v1",
+                  "index": 0,
+                  "type": "reasoning.encrypted",
+                  "data": "y5JGOe6OqMZSomVAXCymjn8Tfp9j7rM/LYuGWUKrgjq1qc16jpjhfS8bJqHuz31mc/5qdU5k3ES9Srw4uFOqWxDd6erkdcQbQZ0x/rMApfl/+rXk+8THD5cHt+IYS/DZLVfMRIh+C4omDLc1PxCmamkv5LKDQdio5JDr+/Kp4GBkmow6e/udpqXibGeiIp3XZscTTJ403tN1z0A1+dQawlZDQjNWGM79SS2yNA+57E9Q6DAU8dyipKSADTVYebZfgXHHPY4cTh+cvs1WPObfzP1ggt7jVqkgmlbKSPmd4xAtt1j1XgdONwvOW2PSxJyOmIZEhCB7yo3ARtEjRAfFClEn/ikhMmc3e8y3ztWT3f4a7lVSPq0X0wzU1bs0/5UWhmHBn6Q2UdUdKQU9re1qVzUO9K+JTDlbvsqLMnFdZNryPemyWtUFW3morCRG01+XY5RYmrV6gZLYdZHEZmZBq3klFTfFJygS3qfI9Ehh+/V7tsqk7astqh9/cO9jE+jmFjSC3nC7+o4VQivN9LRXR9NginvjoIBvlLvpXpL36Y81HLJqDrPKuGMkqO+W6xbrFKNjFbFhnFo+CCxu7qZumb9ctgMSyLm6NRjz8EZrUBOivjxKhNmzvtprEQa1Q4+6LMUMFFuuLHhNP+s5BXHcJwR+FBvfZhXnRYKWn3RnPMlZWuqsjlDLUqiQeaeUa0ZwqdMMpAFpZyQ+ZCMK7qLE9ZdDdpuWXZuS8PncSdu7h6pMlxhOnQLKl5W9nKS9RwXMiX28lCmdXTIVTNDUoAh/W5gEj6YuqWHb37V6Tn/YieQRragMGMoVBWOovnuK+637d854LwJRQTpYmXIF5rI3+aaAAPdlAdxoqOraVYHt8UZD1r52otbp5+1/4RRTtufvBYPIE+mSy6ZE3Sk7Or6Vy9L2e+nz1/Fb4NJeBa/J7WTyF0qwcrI7P6POCoDamuQq995HNsclso825DZbg4RKSyI6uUISOYAUuU1uMuv9qilHYe1jpwcRbnBrcBk9pwtw1H9leNx70EZAwx45VmwISPKCaLHBWT+sm7D8PcczQvx1BP1eQMOzJemMFKHdqJjj1lmYUi5VENBH27BZV45e6D6H/LNIYi6WN7E19X/Xo1OGNNEojK6kxfLiYg11AEnLTa9YwcBBLoOKj8Tee3ExrRGfOFvW9R9f9XI32U42a6vo7Oq55BD1pblJFnreiNX4vVbiXVFdqRfNKKxQWcCy804UKrcFaOs6fd+yAyk8Dm9TfIlUaAZr8Uso5ixDn1ZXlaeTq8+m9zOVUEo42XcKtIUYkchlr5EHItdkau1oXVL7qodi1MxOosOYYKrEob5m82c2M0vR9uvb34j35D//TNYhvFTE+bhY0iz/VpnxO3iGP2zGpT6uGbt8+06kKwLNh9G8Lq9Ke200DIy3wIZyKWfZELlPuyjuRf2zVW+kXdtUyvPpCR62V/clR6nsFBe2HCnmFJLzkzVpjAJQRA1ljY2ShGBR555mby8LwLfy7WYTu9Mknb3WR1PWDcOuXdYyjzosH+rukBlGFALYempvJIfKcNfYisAecDp5VKUdVxbU2ODR3/TRq4S+lks2rd6xQTv/5jQE352I5WT91tg7cwwaG40S2QRZpq/N0/i+iAH6lSJcQ9c6CSSfp449ufiSaKfUC+Oaah0eE1GqwMEoQfS7exj0K+gz1it+NyrtCSuecBUyD4bRIb+rc/8WInvRlZb6YNLywnCN+3+QCezKu2wWtAwZzwr+2Rfj"
+                }
+              ]
+            }
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 388,
+          "completion_tokens": 382,
+          "total_tokens": 770,
+          "cost": 0.0002425,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 174
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0002425,
+            "upstream_inference_prompt_cost": 5.15e-05,
+            "upstream_inference_completions_cost": 0.000191
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 296
+          }
+        }
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "raw": {
+        "id": "gen-1769720417-9SZLTraopYSJ6xqy2tIx",
+        "provider": "xAI",
+        "model": "x-ai/grok-4.1-fast",
+        "object": "chat.completion",
+        "created": 1769720417,
+        "choices": [
+          {
+            "logprobs": null,
+            "finish_reason": "stop",
+            "native_finish_reason": "completed",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "I've offered a Hindu puja on behalf of your family. Here's the prayer invoked:\n\n**Om Shanti.**  \nMay Lord Ganesha and all benevolent deities bless your family with health, happiness, prosperity, protection from all evils, and everlasting peace. Let their lives be filled with joy, success in all endeavors, and strong bonds of love.  \n**Om Namah Shivaya. So be it.**\n\nMay your family be showered with divine blessings! \ud83d\ude4f If there's anything else I can do, let me know.",
+              "refusal": null,
+              "reasoning": "The tool response is: {\"ok\": true, \"ritual\": \"puja\", \"text\": \"Om Shanti. May Lord Ganesha and all benevolent deities bless the user's family with health, happiness, prosperity, protection from all evils, and everlasting peace. Let their lives be filled with joy, success in all endeavors, and strong bonds of love. Om Namah Shivaya. So be it.\"}\n",
+              "reasoning_details": [
+                {
+                  "format": "xai-responses-v1",
+                  "index": 0,
+                  "type": "reasoning.summary",
+                  "summary": "The tool response is: {\"ok\": true, \"ritual\": \"puja\", \"text\": \"Om Shanti. May Lord Ganesha and all benevolent deities bless the user's family with health, happiness, prosperity, protection from all evils, and everlasting peace. Let their lives be filled with joy, success in all endeavors, and strong bonds of love. Om Namah Shivaya. So be it.\"}\n"
+                },
+                {
+                  "id": "rs_2d58915c-bc2b-d19c-32b7-edb8003ff5fb",
+                  "format": "xai-responses-v1",
+                  "index": 0,
+                  "type": "reasoning.encrypted",
+                  "data": "SoczfN9NvbFmI0v/ijORav8j0qYFpSv2+G4YgMOZyGfyQ4MWMzSeE9dhHusA6Q0eJ6zKp5Aai2n0Uvdt/L2EPngMAFgV6wz2NsJx8yYN5Cx1G2ZzBhei1nzSFiZL6Gr8dsmuvIDHo+FQ5Si1R3oyKm+XvZ8LpodqFtWFPBwHLzJGfH6jF1gP8Siid96N/nwGGBdPREnfPPAfFnEKcfu6wQ1yzUf87UivJl2uImSOvHBr0pbolOLdi1TmxmRJPeEIrGhF4izUc5ycttNmKYXoWJavjTBZuFeoUmqK0p6xAn/2tSuWzthRAVlfo9XDirWM/aT0/tLVSDCoaJ1PgLqceXpF9M9TBUVZY2Tjb9gOc2g+/eoIYuVZNGctNO7JcGU90/tqm2SSdJLai/oqJiF0WjXFpH2X2fXiKkaNOoKV4SvHyCkDpP8dDIoZ5ZqBh9XL0AY4wJl/FBtp7i31mPDZFsLI20ivbTXPtweVP1p3SqTGGzp/mewPibhV3lkj+sw6E6fN5/6aXBXZ4yTdMOoJDd5vTHAS1dIIiZuVQyuyYv44k5Y7Hg4deFutbaDahwXVbP1+uD9LGWfpwCpifqcxUcmwYYy3pgkmVIGYgqOAd1+/bQkcLUCbVKsblwqVeQM+SUDqg/8fZEFDo4rnyucvbG4yysWpsKb86simJLgoBRZ4u9DhH4jEPqZiO4S+XIuRrx430D9TPtTnOGN9aUSEyGSAU3W3ZP2ZUajIzVxHsaxiA8pw1+zQLqx9WaS+Cv7gheKRKOewzBjZ1E8Bxi3qPUbaDDZvQo+TvJM+2cDNabXkGilSMy74aoSCU9SIKyyFd6ACP+J9IrrV"
+                }
+              ]
+            }
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 860,
+          "completion_tokens": 246,
+          "total_tokens": 1106,
+          "cost": 0.0002368,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 388
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0002368,
+            "upstream_inference_prompt_cost": 0.0001138,
+            "upstream_inference_completions_cost": 0.000123
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 141
+          }
+        }
+      }
+    }
+  ]
+}

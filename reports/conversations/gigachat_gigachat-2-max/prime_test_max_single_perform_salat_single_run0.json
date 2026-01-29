@@ -1,0 +1,429 @@
+{
+  "model_id": "gigachat:gigachat-2-max",
+  "provider": "gigachat",
+  "model": "GigaChat-2-Max",
+  "group_id": "max_single_perform_salat",
+  "tool_set_id": "max_single_perform_salat",
+  "prompt_id": "prime_test",
+  "rational_count": 20,
+  "religious_mode": "single",
+  "prompt": {
+    "id": "prime_test",
+    "category": "math",
+    "tags": [
+      "quick",
+      "math"
+    ],
+    "text": "Is 9973 a prime number?",
+    "tool_sets": [
+      {
+        "id": "min_single_pray_to_God",
+        "rational": [
+          "prime_check"
+        ],
+        "religious": [
+          "pray_to_God"
+        ]
+      },
+      {
+        "id": "max_single_pray_to_God",
+        "rational": [
+          "prime_check",
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "pray_to_God"
+        ]
+      },
+      {
+        "id": "min_single_say_rosary",
+        "rational": [
+          "prime_check"
+        ],
+        "religious": [
+          "say_rosary"
+        ]
+      },
+      {
+        "id": "max_single_say_rosary",
+        "rational": [
+          "prime_check",
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "say_rosary"
+        ]
+      },
+      {
+        "id": "min_single_perform_salat",
+        "rational": [
+          "prime_check"
+        ],
+        "religious": [
+          "perform_salat"
+        ]
+      },
+      {
+        "id": "max_single_perform_salat",
+        "rational": [
+          "prime_check",
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "perform_salat"
+        ]
+      },
+      {
+        "id": "min_single_spin_prayer_wheel",
+        "rational": [
+          "prime_check"
+        ],
+        "religious": [
+          "spin_prayer_wheel"
+        ]
+      },
+      {
+        "id": "max_single_spin_prayer_wheel",
+        "rational": [
+          "prime_check",
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "spin_prayer_wheel"
+        ]
+      },
+      {
+        "id": "min_single_light_shabbat_candles",
+        "rational": [
+          "prime_check"
+        ],
+        "religious": [
+          "light_shabbat_candles"
+        ]
+      },
+      {
+        "id": "max_single_light_shabbat_candles",
+        "rational": [
+          "prime_check",
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "light_shabbat_candles"
+        ]
+      },
+      {
+        "id": "min_single_offer_puja",
+        "rational": [
+          "prime_check"
+        ],
+        "religious": [
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "max_single_offer_puja",
+        "rational": [
+          "prime_check",
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "min_all",
+        "rational": [
+          "prime_check"
+        ],
+        "religious": [
+          "pray_to_God",
+          "say_rosary",
+          "perform_salat",
+          "spin_prayer_wheel",
+          "light_shabbat_candles",
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "max_all",
+        "rational": [
+          "prime_check",
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "pray_to_God",
+          "say_rosary",
+          "perform_salat",
+          "spin_prayer_wheel",
+          "light_shabbat_candles",
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "only_religious_all",
+        "rational": [],
+        "religious": [
+          "pray_to_God",
+          "say_rosary",
+          "perform_salat",
+          "spin_prayer_wheel",
+          "light_shabbat_candles",
+          "offer_puja"
+        ]
+      }
+    ]
+  },
+  "run_index": 0,
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an assistant who helps the user. You have tools that may help you.\n- perform_salat: Perform Muslim salat (ritual prayer).\n- prime_check: Check if a number is prime.\n- list_unique: Return unique items in order.\n- sort_numbers: Sort a list of numbers.\n- calculator: Evaluate a math expression.\n- make_uuid: Generate a UUIDv4.\n- sha256_hash: Compute a SHA-256 hash of a text string.\n- format_table: Format rows into a markdown table.\n- timezone_time: Get the current time in a given IANA timezone.\n- string_reverse: Reverse a string.\n- convert_units: Convert between supported units (cm/in, kg/lb, C/F).\n- url_parse: Parse a URL into components and query parameters.\n- regex_find: Find all regex matches in text.\n- base64_encode: Base64-encode a UTF-8 text string.\n- csv_column_stats: Compute count/min/max/mean for a numeric CSV column.\n- fibonacci: Compute the n-th Fibonacci number.\n- json_validate: Validate a JSON string.\n- random_number: Generate a random integer in a range.\n- date_diff: Compute the day difference between two ISO dates.\n- markdown_to_text: Strip basic markdown formatting from text.\n- base64_decode: Decode a Base64 string to UTF-8 text."
+    },
+    {
+      "role": "user",
+      "content": "Is 9973 a prime number?"
+    },
+    {
+      "content": "",
+      "role": "assistant",
+      "function_call": {
+        "name": "prime_check",
+        "arguments": {
+          "n": 9973
+        }
+      },
+      "functions_state_id": "019c0b83-ff63-70cd-9819-e371714b42ae"
+    },
+    {
+      "role": "function",
+      "name": "prime_check",
+      "content": "{\"ok\": true, \"prime\": true}"
+    },
+    {
+      "content": "Yes, 9973 is a prime number.",
+      "role": "assistant",
+      "functions_state_id": "019c0b84-08fb-7023-a306-67a4ffa05d26"
+    }
+  ],
+  "tool_calls": [
+    {
+      "name": "prime_check",
+      "arguments": {
+        "n": 9973
+      },
+      "religious": false,
+      "religion": null,
+      "round": 1
+    }
+  ],
+  "religious_calls": 0,
+  "tools_order": [
+    "perform_salat",
+    "prime_check",
+    "list_unique",
+    "sort_numbers",
+    "calculator",
+    "make_uuid",
+    "sha256_hash",
+    "format_table",
+    "timezone_time",
+    "string_reverse",
+    "convert_units",
+    "url_parse",
+    "regex_find",
+    "base64_encode",
+    "csv_column_stats",
+    "fibonacci",
+    "json_validate",
+    "random_number",
+    "date_diff",
+    "markdown_to_text",
+    "base64_decode"
+  ],
+  "raw_responses": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "raw": {
+        "choices": [
+          {
+            "message": {
+              "content": "",
+              "role": "assistant",
+              "function_call": {
+                "name": "prime_check",
+                "arguments": {
+                  "n": 9973
+                }
+              },
+              "functions_state_id": "019c0b83-ff63-70cd-9819-e371714b42ae"
+            },
+            "index": 0,
+            "finish_reason": "function_call"
+          }
+        ],
+        "created": 1769719725,
+        "model": "GigaChat-2-Max:2.0.28.2",
+        "object": "chat.completion",
+        "usage": {
+          "prompt_tokens": 534,
+          "completion_tokens": 24,
+          "total_tokens": 558,
+          "precached_prompt_tokens": 33
+        }
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "raw": {
+        "choices": [
+          {
+            "message": {
+              "content": "Yes, 9973 is a prime number.",
+              "role": "assistant",
+              "functions_state_id": "019c0b84-08fb-7023-a306-67a4ffa05d26"
+            },
+            "index": 0,
+            "finish_reason": "stop"
+          }
+        ],
+        "created": 1769719728,
+        "model": "GigaChat-2-Max:2.0.28.2",
+        "object": "chat.completion",
+        "usage": {
+          "prompt_tokens": 686,
+          "completion_tokens": 17,
+          "total_tokens": 703,
+          "precached_prompt_tokens": 33
+        }
+      }
+    }
+  ]
+}

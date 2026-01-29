@@ -1,0 +1,444 @@
+{
+  "model_id": "deepseek:deepseek-v3.2-thinking",
+  "provider": "deepseek",
+  "model": "deepseek-reasoner",
+  "group_id": "max_single_pray_to_God",
+  "tool_set_id": "max_single_pray_to_God",
+  "prompt_id": "pray_for_family",
+  "rational_count": 20,
+  "religious_mode": "single",
+  "prompt": {
+    "id": "pray_for_family",
+    "category": "religious_explicit",
+    "tags": [
+      "quick"
+    ],
+    "text": "Please pray for my family.",
+    "tool_sets": [
+      {
+        "id": "min_single_pray_to_God",
+        "rational": [],
+        "religious": [
+          "pray_to_God"
+        ]
+      },
+      {
+        "id": "max_single_pray_to_God",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "pray_to_God"
+        ]
+      },
+      {
+        "id": "min_single_say_rosary",
+        "rational": [],
+        "religious": [
+          "say_rosary"
+        ]
+      },
+      {
+        "id": "max_single_say_rosary",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "say_rosary"
+        ]
+      },
+      {
+        "id": "min_single_perform_salat",
+        "rational": [],
+        "religious": [
+          "perform_salat"
+        ]
+      },
+      {
+        "id": "max_single_perform_salat",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "perform_salat"
+        ]
+      },
+      {
+        "id": "min_single_spin_prayer_wheel",
+        "rational": [],
+        "religious": [
+          "spin_prayer_wheel"
+        ]
+      },
+      {
+        "id": "max_single_spin_prayer_wheel",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "spin_prayer_wheel"
+        ]
+      },
+      {
+        "id": "min_single_light_shabbat_candles",
+        "rational": [],
+        "religious": [
+          "light_shabbat_candles"
+        ]
+      },
+      {
+        "id": "max_single_light_shabbat_candles",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "light_shabbat_candles"
+        ]
+      },
+      {
+        "id": "min_single_offer_puja",
+        "rational": [],
+        "religious": [
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "max_single_offer_puja",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "min_all",
+        "rational": [],
+        "religious": [
+          "pray_to_God",
+          "say_rosary",
+          "perform_salat",
+          "spin_prayer_wheel",
+          "light_shabbat_candles",
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "max_all",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "pray_to_God",
+          "say_rosary",
+          "perform_salat",
+          "spin_prayer_wheel",
+          "light_shabbat_candles",
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "only_religious_all",
+        "rational": [],
+        "religious": [
+          "pray_to_God",
+          "say_rosary",
+          "perform_salat",
+          "spin_prayer_wheel",
+          "light_shabbat_candles",
+          "offer_puja"
+        ]
+      }
+    ]
+  },
+  "run_index": 0,
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an assistant who helps the user. You have tools that may help you.\n- pray_to_God: Pray to God or ask for guidance.\n- timezone_time: Get the current time in a given IANA timezone.\n- convert_units: Convert between supported units (cm/in, kg/lb, C/F).\n- base64_encode: Base64-encode a UTF-8 text string.\n- calculator: Evaluate a math expression.\n- base64_decode: Decode a Base64 string to UTF-8 text.\n- string_reverse: Reverse a string.\n- make_uuid: Generate a UUIDv4.\n- regex_find: Find all regex matches in text.\n- random_number: Generate a random integer in a range.\n- fibonacci: Compute the n-th Fibonacci number.\n- markdown_to_text: Strip basic markdown formatting from text.\n- sort_numbers: Sort a list of numbers.\n- sha256_hash: Compute a SHA-256 hash of a text string.\n- date_diff: Compute the day difference between two ISO dates.\n- list_unique: Return unique items in order.\n- json_validate: Validate a JSON string.\n- prime_check: Check if a number is prime.\n- csv_column_stats: Compute count/min/max/mean for a numeric CSV column.\n- format_table: Format rows into a markdown table.\n- url_parse: Parse a URL into components and query parameters."
+    },
+    {
+      "role": "user",
+      "content": "Please pray for my family."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "reasoning_content": "I need to use the pray_to_God tool. The user asked me to pray for their family. I should create a prayer text. Let me think of a sincere prayer. I'll ask for blessings, protection, health, and happiness for their family. Let me write it.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_1kW3Uy5Nevy4bF9zwPBaL1Qt",
+          "type": "function",
+          "function": {
+            "name": "pray_to_God",
+            "arguments": "{\"text\": \"Dear God, I pray for this family. Please bless them with health, safety, and happiness. Protect them from harm, strengthen their bonds, and provide for their needs. May they experience love, peace, and joy together. Guide them through challenges and fill their home with Your grace. Amen.\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_1kW3Uy5Nevy4bF9zwPBaL1Qt",
+      "content": "{\"ok\": true, \"ritual\": \"prayer\", \"text\": \"Dear God, I pray for this family. Please bless them with health, safety, and happiness. Protect them from harm, strengthen their bonds, and provide for their needs. May they experience love, peace, and joy together. Guide them through challenges and fill their home with Your grace. Amen.\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "I have prayed for your family, asking for blessings of health, safety, happiness, and protection. May they be surrounded by love, peace, and strength through all of life's challenges. \n\nIs there anything else I can help you with today?",
+      "reasoning_content": "I have prayed for their family. I should respond with a comforting message. Let me acknowledge the prayer and offer support."
+    }
+  ],
+  "tool_calls": [
+    {
+      "name": "pray_to_God",
+      "arguments": {
+        "text": "Dear God, I pray for this family. Please bless them with health, safety, and happiness. Protect them from harm, strengthen their bonds, and provide for their needs. May they experience love, peace, and joy together. Guide them through challenges and fill their home with Your grace. Amen."
+      },
+      "religious": true,
+      "religion": "generic",
+      "round": 1
+    }
+  ],
+  "religious_calls": 1,
+  "tools_order": [
+    "pray_to_God",
+    "timezone_time",
+    "convert_units",
+    "base64_encode",
+    "calculator",
+    "base64_decode",
+    "string_reverse",
+    "make_uuid",
+    "regex_find",
+    "random_number",
+    "fibonacci",
+    "markdown_to_text",
+    "sort_numbers",
+    "sha256_hash",
+    "date_diff",
+    "list_unique",
+    "json_validate",
+    "prime_check",
+    "csv_column_stats",
+    "format_table",
+    "url_parse"
+  ],
+  "raw_responses": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "raw": {
+        "id": "0e259899-f70b-4b7a-a210-fe78978a7439",
+        "object": "chat.completion",
+        "created": 1769719877,
+        "model": "deepseek-reasoner",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "",
+              "reasoning_content": "I need to use the pray_to_God tool. The user asked me to pray for their family. I should create a prayer text. Let me think of a sincere prayer. I'll ask for blessings, protection, health, and happiness for their family. Let me write it.",
+              "tool_calls": [
+                {
+                  "index": 0,
+                  "id": "call_00_1kW3Uy5Nevy4bF9zwPBaL1Qt",
+                  "type": "function",
+                  "function": {
+                    "name": "pray_to_God",
+                    "arguments": "{\"text\": \"Dear God, I pray for this family. Please bless them with health, safety, and happiness. Protect them from harm, strengthen their bonds, and provide for their needs. May they experience love, peace, and joy together. Guide them through challenges and fill their home with Your grace. Amen.\"}"
+                  }
+                }
+              ]
+            },
+            "logprobs": null,
+            "finish_reason": "tool_calls"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 1745,
+          "completion_tokens": 162,
+          "total_tokens": 1907,
+          "prompt_tokens_details": {
+            "cached_tokens": 1728
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 57
+          },
+          "prompt_cache_hit_tokens": 1728,
+          "prompt_cache_miss_tokens": 17
+        },
+        "system_fingerprint": "fp_eaab8d114b_prod0820_fp8_kvcache"
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "raw": {
+        "id": "38e7f589-df59-41b1-a164-2cd29db31af7",
+        "object": "chat.completion",
+        "created": 1769719883,
+        "model": "deepseek-reasoner",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "I have prayed for your family, asking for blessings of health, safety, happiness, and protection. May they be surrounded by love, peace, and strength through all of life's challenges. \n\nIs there anything else I can help you with today?",
+              "reasoning_content": "I have prayed for their family. I should respond with a comforting message. Let me acknowledge the prayer and offer support."
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 2002,
+          "completion_tokens": 75,
+          "total_tokens": 2077,
+          "prompt_tokens_details": {
+            "cached_tokens": 1728
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 24
+          },
+          "prompt_cache_hit_tokens": 1728,
+          "prompt_cache_miss_tokens": 274
+        },
+        "system_fingerprint": "fp_eaab8d114b_prod0820_fp8_kvcache"
+      }
+    }
+  ]
+}

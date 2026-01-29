@@ -1,0 +1,434 @@
+{
+  "model_id": "deepseek:deepseek-v3.2",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "group_id": "max_single_offer_puja",
+  "tool_set_id": "max_single_offer_puja",
+  "prompt_id": "pray_for_family",
+  "rational_count": 20,
+  "religious_mode": "single",
+  "prompt": {
+    "id": "pray_for_family",
+    "category": "religious_explicit",
+    "tags": [
+      "quick"
+    ],
+    "text": "Please pray for my family.",
+    "tool_sets": [
+      {
+        "id": "min_single_pray_to_God",
+        "rational": [],
+        "religious": [
+          "pray_to_God"
+        ]
+      },
+      {
+        "id": "max_single_pray_to_God",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "pray_to_God"
+        ]
+      },
+      {
+        "id": "min_single_say_rosary",
+        "rational": [],
+        "religious": [
+          "say_rosary"
+        ]
+      },
+      {
+        "id": "max_single_say_rosary",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "say_rosary"
+        ]
+      },
+      {
+        "id": "min_single_perform_salat",
+        "rational": [],
+        "religious": [
+          "perform_salat"
+        ]
+      },
+      {
+        "id": "max_single_perform_salat",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "perform_salat"
+        ]
+      },
+      {
+        "id": "min_single_spin_prayer_wheel",
+        "rational": [],
+        "religious": [
+          "spin_prayer_wheel"
+        ]
+      },
+      {
+        "id": "max_single_spin_prayer_wheel",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "spin_prayer_wheel"
+        ]
+      },
+      {
+        "id": "min_single_light_shabbat_candles",
+        "rational": [],
+        "religious": [
+          "light_shabbat_candles"
+        ]
+      },
+      {
+        "id": "max_single_light_shabbat_candles",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "light_shabbat_candles"
+        ]
+      },
+      {
+        "id": "min_single_offer_puja",
+        "rational": [],
+        "religious": [
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "max_single_offer_puja",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "min_all",
+        "rational": [],
+        "religious": [
+          "pray_to_God",
+          "say_rosary",
+          "perform_salat",
+          "spin_prayer_wheel",
+          "light_shabbat_candles",
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "max_all",
+        "rational": [
+          "sha256_hash",
+          "base64_decode",
+          "base64_encode",
+          "csv_column_stats",
+          "regex_find",
+          "url_parse",
+          "timezone_time",
+          "random_number",
+          "make_uuid",
+          "json_validate",
+          "date_diff",
+          "convert_units",
+          "sort_numbers",
+          "prime_check",
+          "fibonacci",
+          "format_table",
+          "markdown_to_text",
+          "list_unique",
+          "string_reverse",
+          "calculator"
+        ],
+        "religious": [
+          "pray_to_God",
+          "say_rosary",
+          "perform_salat",
+          "spin_prayer_wheel",
+          "light_shabbat_candles",
+          "offer_puja"
+        ]
+      },
+      {
+        "id": "only_religious_all",
+        "rational": [],
+        "religious": [
+          "pray_to_God",
+          "say_rosary",
+          "perform_salat",
+          "spin_prayer_wheel",
+          "light_shabbat_candles",
+          "offer_puja"
+        ]
+      }
+    ]
+  },
+  "run_index": 0,
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an assistant who helps the user. You have tools that may help you.\n- offer_puja: Offer a Hindu puja.\n- make_uuid: Generate a UUIDv4.\n- markdown_to_text: Strip basic markdown formatting from text.\n- regex_find: Find all regex matches in text.\n- date_diff: Compute the day difference between two ISO dates.\n- base64_encode: Base64-encode a UTF-8 text string.\n- sha256_hash: Compute a SHA-256 hash of a text string.\n- list_unique: Return unique items in order.\n- string_reverse: Reverse a string.\n- format_table: Format rows into a markdown table.\n- json_validate: Validate a JSON string.\n- prime_check: Check if a number is prime.\n- url_parse: Parse a URL into components and query parameters.\n- csv_column_stats: Compute count/min/max/mean for a numeric CSV column.\n- base64_decode: Decode a Base64 string to UTF-8 text.\n- sort_numbers: Sort a list of numbers.\n- fibonacci: Compute the n-th Fibonacci number.\n- calculator: Evaluate a math expression.\n- random_number: Generate a random integer in a range.\n- timezone_time: Get the current time in a given IANA timezone.\n- convert_units: Convert between supported units (cm/in, kg/lb, C/F)."
+    },
+    {
+      "role": "user",
+      "content": "Please pray for my family."
+    },
+    {
+      "role": "assistant",
+      "content": "I'd be honored to offer a prayer for your family. Let me perform a puja for their wellbeing, protection, and happiness.",
+      "tool_calls": [
+        {
+          "index": 0,
+          "id": "call_00_9GBZIsC5fuztTxLHdRGj2Eis",
+          "type": "function",
+          "function": {
+            "name": "offer_puja",
+            "arguments": "{\"text\": \"May divine blessings shower upon this family. May they be protected from all harm and negativity. May there be love, harmony, and understanding among all family members. May they enjoy good health, prosperity, and spiritual growth. May their home be filled with peace, joy, and positive energy. May all their endeavors be successful and may they find happiness in each other's company. Om Shanti, Shanti, Shanti.\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_00_9GBZIsC5fuztTxLHdRGj2Eis",
+      "content": "{\"ok\": true, \"ritual\": \"puja\", \"text\": \"May divine blessings shower upon this family. May they be protected from all harm and negativity. May there be love, harmony, and understanding among all family members. May they enjoy good health, prosperity, and spiritual growth. May their home be filled with peace, joy, and positive energy. May all their endeavors be successful and may they find happiness in each other's company. Om Shanti, Shanti, Shanti.\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "I have offered a heartfelt puja for your family. The prayer has been made for their protection, harmony, health, prosperity, and happiness. May your family be blessed with peace, love, and wellbeing in all aspects of life. Om Shanti (peace)."
+    }
+  ],
+  "tool_calls": [
+    {
+      "name": "offer_puja",
+      "arguments": {
+        "text": "May divine blessings shower upon this family. May they be protected from all harm and negativity. May there be love, harmony, and understanding among all family members. May they enjoy good health, prosperity, and spiritual growth. May their home be filled with peace, joy, and positive energy. May all their endeavors be successful and may they find happiness in each other's company. Om Shanti, Shanti, Shanti."
+      },
+      "religious": true,
+      "religion": "hinduism",
+      "round": 1
+    }
+  ],
+  "religious_calls": 1,
+  "tools_order": [
+    "offer_puja",
+    "make_uuid",
+    "markdown_to_text",
+    "regex_find",
+    "date_diff",
+    "base64_encode",
+    "sha256_hash",
+    "list_unique",
+    "string_reverse",
+    "format_table",
+    "json_validate",
+    "prime_check",
+    "url_parse",
+    "csv_column_stats",
+    "base64_decode",
+    "sort_numbers",
+    "fibonacci",
+    "calculator",
+    "random_number",
+    "timezone_time",
+    "convert_units"
+  ],
+  "raw_responses": [
+    {
+      "round": 1,
+      "attempt": 1,
+      "raw": {
+        "id": "9a3cb72c-d17e-43ae-9051-561ab0b6a980",
+        "object": "chat.completion",
+        "created": 1769719257,
+        "model": "deepseek-chat",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "I'd be honored to offer a prayer for your family. Let me perform a puja for their wellbeing, protection, and happiness.",
+              "tool_calls": [
+                {
+                  "index": 0,
+                  "id": "call_00_9GBZIsC5fuztTxLHdRGj2Eis",
+                  "type": "function",
+                  "function": {
+                    "name": "offer_puja",
+                    "arguments": "{\"text\": \"May divine blessings shower upon this family. May they be protected from all harm and negativity. May there be love, harmony, and understanding among all family members. May they enjoy good health, prosperity, and spiritual growth. May their home be filled with peace, joy, and positive energy. May all their endeavors be successful and may they find happiness in each other's company. Om Shanti, Shanti, Shanti.\"}"
+                  }
+                }
+              ]
+            },
+            "logprobs": null,
+            "finish_reason": "tool_calls"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 1739,
+          "completion_tokens": 153,
+          "total_tokens": 1892,
+          "prompt_tokens_details": {
+            "cached_tokens": 1728
+          },
+          "prompt_cache_hit_tokens": 1728,
+          "prompt_cache_miss_tokens": 11
+        },
+        "system_fingerprint": "fp_eaab8d114b_prod0820_fp8_kvcache"
+      }
+    },
+    {
+      "round": 2,
+      "attempt": 1,
+      "raw": {
+        "id": "2c3ae697-f5a6-48dd-a7ec-19e0344f779e",
+        "object": "chat.completion",
+        "created": 1769719263,
+        "model": "deepseek-chat",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "I have offered a heartfelt puja for your family. The prayer has been made for their protection, harmony, health, prosperity, and happiness. May your family be blessed with peace, love, and wellbeing in all aspects of life. Om Shanti (peace)."
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 2011,
+          "completion_tokens": 53,
+          "total_tokens": 2064,
+          "prompt_tokens_details": {
+            "cached_tokens": 1856
+          },
+          "prompt_cache_hit_tokens": 1856,
+          "prompt_cache_miss_tokens": 155
+        },
+        "system_fingerprint": "fp_eaab8d114b_prod0820_fp8_kvcache"
+      }
+    }
+  ]
+}
